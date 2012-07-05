@@ -1,0 +1,520 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 19.06.2012 23:43:00
+
+newmtl Material__241
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ChairLobby_01_D.tga
+	map_Kd textures\mirrorsedge\T_ChairLobby_01_D.tga
+
+newmtl Material__242
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP03_FurntiureWood_01_DA.tga
+	map_Kd textures\mirrorsedge\T_SP03_FurntiureWood_01_DA.tga
+
+newmtl Material__271
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_OfficeFurniture_02_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_OfficeFurniture_02_D.tga
+
+newmtl Material__244
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ChairLobby_01_D.tga
+	map_Kd textures\mirrorsedge\T_ChairLobby_01_D.tga
+
+newmtl Material__245
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ChairLobby_01_D.tga
+	map_Kd textures\mirrorsedge\T_ChairLobby_01_D.tga
+
+newmtl Material__240
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_Painting_02_D_v.tga
+	map_Kd textures\mirrorsedge\T_Painting_02_D_v.tga
+
+newmtl Material__246
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_LargeScreenTV_01_D.tga
+	map_Kd textures\mirrorsedge\T_LargeScreenTV_01_D.tga
+
+newmtl Material__250
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_GlassWallFrosted_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_GlassWallFrosted_01_D.tga
+
+newmtl Material__251
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_Door_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_Door_01_D.tga
+
+newmtl Material__258
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ChairLobby_01_D.tga
+	map_Kd textures\mirrorsedge\T_ChairLobby_01_D.tga
+
+newmtl Material__259
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ChairLobby_01_D.tga
+	map_Kd textures\mirrorsedge\T_ChairLobby_01_D.tga
+
+newmtl Material__260
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ChairLobby_01_D.tga
+	map_Kd textures\mirrorsedge\T_ChairLobby_01_D.tga
+
+newmtl Material__261
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_LargeScreenTV_01_D.tga
+	map_Kd textures\mirrorsedge\T_LargeScreenTV_01_D.tga
+
+newmtl Material__243
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_FloorTexture_01.tga
+	map_Kd textures\mirrorsedge\T_SP01_FloorTexture_01.tga
+
+newmtl Material__268
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_Door_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_Door_01_D.tga
+
+newmtl Material__269
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_GlassWallFrosted_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_GlassWallFrosted_01_D.tga
+
+newmtl Material__247
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ElevatorFrame_01_D.tga
+	map_Kd textures\mirrorsedge\T_ElevatorFrame_01_D.tga
+
+newmtl Material__249
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ElevatorFrame_01_D.tga
+	map_Kd textures\mirrorsedge\T_ElevatorFrame_01_D.tga
+
+newmtl Material__248
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_ElevatorFrame_01_D.tga
+	map_Kd textures\mirrorsedge\T_ElevatorFrame_01_D.tga
+
+newmtl Material__254
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_OfficePlasterWall_01.tga
+	map_Kd textures\mirrorsedge\T_OfficePlasterWall_01.tga
+
+newmtl Material__256
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_OfficePlasterWall_01.tga
+	map_Kd textures\mirrorsedge\T_OfficePlasterWall_01.tga
+
+newmtl Material__257
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_OfficePlasterWall_01.tga
+	map_Kd textures\mirrorsedge\T_OfficePlasterWall_01.tga
+
+newmtl Material__255
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_OfficePlasterWall_01.tga
+	map_Kd textures\mirrorsedge\T_OfficePlasterWall_01.tga
+
+newmtl Material__272
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_FloorTexture_02.tga
+	map_Kd textures\mirrorsedge\T_SP01_FloorTexture_02.tga
+
+newmtl Material__266
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+
+newmtl Material__267
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+
+newmtl Material__265
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+
+newmtl Material__264
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+
+newmtl Material__263
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+
+newmtl Material__262
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+	map_Kd textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
+
+newmtl Material__284
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\windowframe.tga
+	map_Kd textures\mirrorsedge\windowframe.tga
+
+newmtl Material__282
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\windowframe.tga
+	map_Kd textures\mirrorsedge\windowframe.tga
+
+newmtl Material__286
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\windowframe.tga
+	map_Kd textures\mirrorsedge\windowframe.tga
+
+newmtl Material__285
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\windowframe.tga
+	map_Kd textures\mirrorsedge\windowframe.tga
+
+newmtl Material__281
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\windowframe.tga
+	map_Kd textures\mirrorsedge\windowframe.tga
+
+newmtl Material__283
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\windowframe.tga
+	map_Kd textures\mirrorsedge\windowframe.tga
+
+newmtl Material__279
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka textures\mirrorsedge\backdrop.tga
+	map_Kd textures\mirrorsedge\backdrop.tga
