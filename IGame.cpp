@@ -26,17 +26,17 @@ bool IGame::Init(int w, int h, std::string title)
 
 	// Set our initialization parameters
 	glfwOpenWindowHint(GLFW_OPENGL_VERSION_MAJOR, 3);
-	glfwOpenWindowHint(GLFW_OPENGL_VERSION_MINOR, 3);
+	glfwOpenWindowHint(GLFW_OPENGL_VERSION_MINOR, 1);
 	//glfwOpenWindowHint(GLFW_OPENGL_PROFILE, 0);
 
 	m_WindowWidth = w;
 	m_WindowHeight = h;
 	
-	if (!glfwOpenWindow(m_WindowWidth, m_WindowHeight, 0, 0, 0, 0, 0, 0, GLFW_WINDOW))
+	if (!glfwOpenWindow(800, 600, 0, 0, 0, 0, 32, 0, GLFW_WINDOW))
 	{
-		std::cout << "ERROR: Failed to create window!" << std::endl;
-		glfwTerminate();
-		return false;
+		//std::cout << "ERROR: Failed to create window!" << std::endl;
+		//glfwTerminate();
+		//return false;
 	}
 
 	if (glewInit() != GLEW_OK)

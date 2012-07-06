@@ -23,9 +23,9 @@
 #include <GL/glew.h>
 #include <GL/glfw.h>
 #include <SOIL.h>
-#include <assimp.hpp>
-#include <aiScene.h>
-#include <aiPostProcess.h>
+#include <assimp/assimp.hpp>
+#include <assimp/aiScene.h>
+#include <assimp/aiPostProcess.h>
 
 // Engine Include
 #include "CFrameBuffer.h"
