@@ -214,7 +214,7 @@ CModel* IContentSystem::LoadModel(std::string filepath)
 
 GLuint IContentSystem::GetTexture(std::string path)
 {
-	if (m_TextureCache[path] != NULL)
+	if (m_TextureCache[path] != 0)
 	{
 		return m_TextureCache[path];
 	}

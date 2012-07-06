@@ -150,7 +150,7 @@ CShader* IRenderSystem::GetShader(std::string name)
 		return m_Shaders[name];
 	}
 
-	return false;
+	return 0;
 }
 
 void IRenderSystem::SetShader(CShader* shader)

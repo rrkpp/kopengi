@@ -1,4 +1,4 @@
-#version 330
+#version 130
 
 // _MS = Model Space
 // _WS = World Space
