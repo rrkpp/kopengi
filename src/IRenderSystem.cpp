@@ -124,6 +124,8 @@ void IRenderSystem::Draw()
 
 void IRenderSystem::LoadShaders()
 {
+	log(LOG_TYPE_DEFAULT, "--\n");
+
 	CShader* shader = new CShader("shaders/unlit.vs.glsl", "shaders/unlit.ps.glsl");
 	m_Shaders["unlit"] = shader;
 

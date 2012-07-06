@@ -28,17 +28,15 @@ int main(int argc, char **argv)
 		// Main loop
 		while (GetGame()->Running())
 		{
-			//float start = CurTime();
 			GetGame()->UpdateWindow();
 			GetGame()->GetInputSystem()->Poll();
 			GetGame()->GetSceneManager()->Tick();
 			GetGame()->GetRenderSystem()->Draw();
-			//std::cout << CurTime() - start << std::endl;
 		}
 	}
 	else
 	{
-		std::cout << "Engine initialization failed!" << std::endl;
+		log(LOG_TYPE_ERROR, "Engine initialization failed!");
 	}
 
 	return 0;

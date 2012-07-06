@@ -66,7 +66,7 @@ bool GBuffer::Init(unsigned int w, unsigned int h)
 	GLenum status = glCheckFramebufferStatus(GL_FRAMEBUFFER);
 	if (status != GL_FRAMEBUFFER_COMPLETE)
 	{
-		std::cout << "Error creating frame-buffer: " << status << std::endl;
+		log(LOG_TYPE_ERROR, "Error creating frame-buffer: " + status);
 		m_Status = false;
 		return false;
 	}

@@ -28,6 +28,7 @@
 #include <assimp/aiPostProcess.h>
 
 // Engine Include
+#include "Log.h"
 #include "CFrameBuffer.h"
 #include "GBuffer.h"
 #include "ISceneNode.h"
@@ -53,11 +54,13 @@
 #include "IGame.h"
 
 // Libraries
-#pragma comment(lib, "glew32.lib")
-#pragma comment(lib, "GLFW.lib")
-#pragma comment(lib, "opengl32.lib")
-#pragma comment(lib, "SOIL.lib")
-#pragma comment(lib, "assimp.lib")
+#ifdef _WIN32
+	#pragma comment(lib, "glew32.lib")
+	#pragma comment(lib, "GLFW.lib")
+	#pragma comment(lib, "opengl32.lib")
+	#pragma comment(lib, "SOIL.lib")
+	#pragma comment(lib, "assimp.lib")
+#endif
 
 #define ARRAY_SIZE_IN_ELEMENTS(a) (sizeof(a)/sizeof(a[0]))
 

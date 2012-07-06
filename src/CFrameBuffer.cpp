@@ -29,9 +29,9 @@ bool CFrameBuffer::Init(unsigned int w, unsigned int h, int numTextures)
 
 	// Generate GBuffer textures
 	m_Textures = new GLuint[numTextures];
-	glGenTextures(ARRAY_SIZE_IN_ELEMENTS(m_Textures), m_Textures);
+	glGenTextures(numTextures, m_Textures);
 
-	for (unsigned int i = 0; i < ARRAY_SIZE_IN_ELEMENTS(m_Textures); i++)
+	for (unsigned int i = 0; i < numTextures; i++)
 	{
 		glBindTexture(GL_TEXTURE_2D, m_Textures[i]);
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB32F, w, h, 0, GL_RGB, GL_FLOAT, NULL);
@@ -41,13 +41,17 @@ bool CFrameBuffer::Init(unsigned int w, unsigned int h, int numTextures)
 
 	// Set draw buffers
 	GLenum* DrawBuffers = new GLenum[numTextures];
+	for (unsigned int i = 0; i < numTextures; i++)
+	{
+		DrawBuffers[i] = GL_NONE;
+	}
 
 	glDrawBuffers(numTextures, DrawBuffers);
 
 	GLenum status = glCheckFramebufferStatus(GL_FRAMEBUFFER);
 	if (status != GL_FRAMEBUFFER_COMPLETE)
 	{
-		std::cout << "Error creating frame-buffer: " << status << std::endl;
+		log(LOG_TYPE_ERROR, "Error creating frame-buffer: " +  status);
 		m_Status = false;
 		return false;
 	}

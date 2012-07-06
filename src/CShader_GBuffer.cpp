@@ -41,47 +41,73 @@ CShader_GBuffer::CShader_GBuffer(std::string vs_path, std::string ps_path)
 	int logLength;
 
 	// Compile vertex shader
-	std::cout << "Compiling Shader: " << vs_path << ".." << std::endl;
+	log(LOG_TYPE_DEFAULT, "Compiling Shader: " +  vs_path + "..");
 	const char* vsPointer = vsCode.c_str();
 	glShaderSource(vsID, 1, &vsPointer, NULL);
 	glCompileShader(vsID);
 
 	// Check shader status
 	glGetShaderiv(vsID, GL_COMPILE_STATUS, &result);
-	glGetShaderiv(vsID, GL_INFO_LOG_LENGTH, &logLength);
-	std::vector<char> vsError(logLength);
-	glGetShaderInfoLog(vsID, logLength, NULL, &vsError[0]);
-	std::cout << &vsError[0] << std::endl;
+	if (!result)
+	{
+		glGetShaderiv(vsID, GL_INFO_LOG_LENGTH, &logLength);
+		std::vector<char> vsError(logLength);
+		glGetShaderInfoLog(vsID, logLength, NULL, &vsError[0]);
+		
+		if (vsError.size() - 1 >= 0)
+		{
+			vsError[vsError.size() - 1] = '\0';
+		}
+
+		log(LOG_TYPE_ERROR, std::string((char*)&vsError[0]));
+	}
 
 	// Compile pixel shader
-	std::cout << "Compiling Shader: " << ps_path << ".." << std::endl;
+	log(LOG_TYPE_DEFAULT, "Compiling Shader: " +  ps_path +  "..");
 	const char* psPointer = psCode.c_str();
 	glShaderSource(psID, 1, &psPointer, NULL);
 	glCompileShader(psID);
 
 	// Check shader status
 	glGetShaderiv(psID, GL_COMPILE_STATUS, &result);
-	glGetShaderiv(psID, GL_INFO_LOG_LENGTH, &logLength);
-	std::vector<char> psError(logLength);
-	glGetShaderInfoLog(psID, logLength, NULL, &psError[0]);
-	std::cout << &psError[0] << std::endl;
+	if (!result)
+	{
+		glGetShaderiv(psID, GL_INFO_LOG_LENGTH, &logLength);
+		std::vector<char> psError(logLength);
+		glGetShaderInfoLog(psID, logLength, NULL, &psError[0]);
+		
+		if (psError.size() - 1 >= 0)
+		{
+			psError[psError.size() - 1] = '\0';
+		}
+
+		log(LOG_TYPE_ERROR, std::string((char*)&psError[0]));
+	}
 
 	// Link shader
-	std::cout << "Linking shader .." << std::endl;
+	log(LOG_TYPE_DEFAULT, "Linking shader ..");
 	GLuint shaderID = glCreateProgram();
 	glAttachShader(shaderID, vsID);
 	glAttachShader(shaderID, psID);
-
-	PreLink(shaderID);
-
 	glLinkProgram(shaderID);
 
 	// Check final shader
 	glGetProgramiv(shaderID, GL_LINK_STATUS, &result);
-	glGetProgramiv(shaderID, GL_INFO_LOG_LENGTH, &logLength);
-	std::vector<char> shaderError(std::max(logLength, int(1)));
-	glGetProgramInfoLog(shaderID, logLength, NULL, &shaderError[0]);
-	std::cout << &shaderError[0] << std::endl;
+	if (!result)
+	{
+		glGetProgramiv(shaderID, GL_INFO_LOG_LENGTH, &logLength);
+		std::vector<char> shaderError(std::max(logLength, int(1)));
+		glGetProgramInfoLog(shaderID, logLength, NULL, &shaderError[0]);
+		
+		if (shaderError.size() - 1 >= 0)
+		{
+			shaderError[shaderError.size() - 1] = '\0';
+		}
+
+		log(LOG_TYPE_ERROR, std::string((char*)&shaderError[0]) + "\n");
+	}
+
+	log(LOG_TYPE_DEFAULT, "--\n");
 
 	// Clean up
 	glDeleteShader(vsID);

@@ -1,0 +1,1170 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_SIZE_IN_ELEMENTS	kopengi.h	62;"	d
+Activate	CShader.cpp	/^void CShader::Activate()$/;"	f	class:CShader	signature:()
+Activate	CShader.h	/^	virtual void Activate();$/;"	p	class:CShader	access:public	signature:()
+Activate	CShader_Deferred.cpp	/^void CShader_Deferred::Activate()$/;"	f	class:CShader_Deferred	signature:()
+Activate	CShader_Deferred.h	/^	virtual void Activate();$/;"	p	class:CShader_Deferred	access:public	signature:()
+Activate	CShader_GBuffer.cpp	/^void CShader_GBuffer::Activate()$/;"	f	class:CShader_GBuffer	signature:()
+Activate	CShader_GBuffer.h	/^	virtual void Activate();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+Activate	CShader_SSAO.cpp	/^void CShader_SSAO::Activate()$/;"	f	class:CShader_SSAO	signature:()
+Activate	CShader_SSAO.h	/^	virtual void Activate();$/;"	p	class:CShader_SSAO	access:public	signature:()
+ActivateBlurPass	CShader_SSAO.h	/^	void ActivateBlurPass();$/;"	p	class:CShader_SSAO	access:public	signature:()
+AddChild	ISceneNode.cpp	/^void ISceneNode::AddChild(ISceneNode* node)$/;"	f	class:ISceneNode	signature:(ISceneNode* node)
+AddChild	ISceneNode.h	/^	virtual void AddChild(ISceneNode* node);$/;"	p	class:ISceneNode	access:public	signature:(ISceneNode* node)
+AddLight	ISceneManager.cpp	/^void ISceneManager::AddLight(CLight* light)$/;"	f	class:ISceneManager	signature:(CLight* light)
+AddLight	ISceneManager.h	/^	void AddLight(CLight* light);$/;"	p	class:ISceneManager	access:public	signature:(CLight* light)
+AddMesh	CModel.cpp	/^void CModel::AddMesh(CMesh* mesh)$/;"	f	class:CModel	signature:(CMesh* mesh)
+AddMesh	CModel.h	/^	void AddMesh(CMesh* mesh);$/;"	p	class:CModel	access:public	signature:(CMesh* mesh)
+AddNode	ISceneManager.cpp	/^void ISceneManager::AddNode(ISceneNode* node)$/;"	f	class:ISceneManager	signature:(ISceneNode* node)
+AddNode	ISceneManager.h	/^	void AddNode(ISceneNode* node);$/;"	p	class:ISceneManager	access:public	signature:(ISceneNode* node)
+AddShader	CPostProcessChain.cpp	/^void CPostProcessChain::AddShader(CShader* shader)$/;"	f	class:CPostProcessChain	signature:(CShader* shader)
+AddShader	CPostProcessChain.h	/^	void AddShader(CShader* shader);$/;"	p	class:CPostProcessChain	access:public	signature:(CShader* shader)
+BindForReading	CFrameBuffer.cpp	/^void CFrameBuffer::BindForReading()$/;"	f	class:CFrameBuffer	signature:()
+BindForReading	CFrameBuffer.h	/^	void BindForReading();$/;"	p	class:CFrameBuffer	access:public	signature:()
+BindForReading	GBuffer.cpp	/^void GBuffer::BindForReading()$/;"	f	class:GBuffer	signature:()
+BindForReading	GBuffer.h	/^	void BindForReading();$/;"	p	class:GBuffer	access:public	signature:()
+BindForWriting	CFrameBuffer.cpp	/^void CFrameBuffer::BindForWriting()$/;"	f	class:CFrameBuffer	signature:()
+BindForWriting	CFrameBuffer.h	/^	void BindForWriting();$/;"	p	class:CFrameBuffer	access:public	signature:()
+BindForWriting	GBuffer.cpp	/^void GBuffer::BindForWriting()$/;"	f	class:GBuffer	signature:()
+BindForWriting	GBuffer.h	/^	void BindForWriting();$/;"	p	class:GBuffer	access:public	signature:()
+CCameraNode	CCameraNode.cpp	/^CCameraNode::CCameraNode()$/;"	f	class:CCameraNode	signature:()
+CCameraNode	CCameraNode.h	/^	CCameraNode();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode	CCameraNode.h	/^class CCameraNode : public ISceneNode$/;"	c	inherits:ISceneNode
+CCameraNode::CCameraNode	CCameraNode.cpp	/^CCameraNode::CCameraNode()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::CCameraNode	CCameraNode.h	/^	CCameraNode();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::GetDirection	CCameraNode.cpp	/^glm::vec3 CCameraNode::GetDirection()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::GetDirection	CCameraNode.h	/^	glm::vec3 GetDirection();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::GetFOV	CCameraNode.cpp	/^float CCameraNode::GetFOV()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::GetFOV	CCameraNode.h	/^	float GetFOV();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::GetFarZ	CCameraNode.cpp	/^float CCameraNode::GetFarZ()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::GetFarZ	CCameraNode.h	/^	float GetFarZ();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::GetNearZ	CCameraNode.cpp	/^float CCameraNode::GetNearZ()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::GetNearZ	CCameraNode.h	/^	float GetNearZ();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::GetRight	CCameraNode.cpp	/^glm::vec3 CCameraNode::GetRight()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::GetRight	CCameraNode.h	/^	glm::vec3 GetRight();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::GetUp	CCameraNode.cpp	/^glm::vec3 CCameraNode::GetUp()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::GetUp	CCameraNode.h	/^	glm::vec3 GetUp();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::SetDirection	CCameraNode.cpp	/^void CCameraNode::SetDirection(glm::vec3 ang)$/;"	f	class:CCameraNode	signature:(glm::vec3 ang)
+CCameraNode::SetDirection	CCameraNode.h	/^	void SetDirection(glm::vec3 ang);$/;"	p	class:CCameraNode	access:public	signature:(glm::vec3 ang)
+CCameraNode::SetFOV	CCameraNode.cpp	/^void CCameraNode::SetFOV(float fov)$/;"	f	class:CCameraNode	signature:(float fov)
+CCameraNode::SetFOV	CCameraNode.h	/^	void SetFOV(float fov);$/;"	p	class:CCameraNode	access:public	signature:(float fov)
+CCameraNode::SetFarZ	CCameraNode.cpp	/^void CCameraNode::SetFarZ(float z)$/;"	f	class:CCameraNode	signature:(float z)
+CCameraNode::SetFarZ	CCameraNode.h	/^	void SetFarZ(float z);$/;"	p	class:CCameraNode	access:public	signature:(float z)
+CCameraNode::SetNearZ	CCameraNode.cpp	/^void CCameraNode::SetNearZ(float z)$/;"	f	class:CCameraNode	signature:(float z)
+CCameraNode::SetNearZ	CCameraNode.h	/^	void SetNearZ(float z);$/;"	p	class:CCameraNode	access:public	signature:(float z)
+CCameraNode::Tick	CCameraNode.cpp	/^void CCameraNode::Tick()$/;"	f	class:CCameraNode	signature:()
+CCameraNode::Tick	CCameraNode.h	/^	void Tick();$/;"	p	class:CCameraNode	access:public	signature:()
+CCameraNode::m_FOV	CCameraNode.h	/^	float m_FOV;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_FarZ	CCameraNode.h	/^	float m_FarZ;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_Forward	CCameraNode.h	/^	glm::vec3 m_Forward; \/\/ Directional vector$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_LastTick	CCameraNode.h	/^	float m_LastTick;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_NearZ	CCameraNode.h	/^	float m_NearZ;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_Right	CCameraNode.h	/^	glm::vec3 m_Right;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_Up	CCameraNode.h	/^	glm::vec3 m_Up;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_XAngle	CCameraNode.h	/^	float m_XAngle;$/;"	m	class:CCameraNode	access:private
+CCameraNode::m_YAngle	CCameraNode.h	/^	float m_YAngle;$/;"	m	class:CCameraNode	access:private
+CCameraNode::~CCameraNode	CCameraNode.cpp	/^CCameraNode::~CCameraNode() {}$/;"	f	class:CCameraNode	signature:()
+CCameraNode::~CCameraNode	CCameraNode.h	/^	~CCameraNode();$/;"	p	class:CCameraNode	access:public	signature:()
+CFrameBuffer	CFrameBuffer.cpp	/^CFrameBuffer::CFrameBuffer() {}$/;"	f	class:CFrameBuffer	signature:()
+CFrameBuffer	CFrameBuffer.h	/^	CFrameBuffer();$/;"	p	class:CFrameBuffer	access:public	signature:()
+CFrameBuffer	CFrameBuffer.h	/^class CFrameBuffer$/;"	c
+CFrameBuffer::BindForReading	CFrameBuffer.cpp	/^void CFrameBuffer::BindForReading()$/;"	f	class:CFrameBuffer	signature:()
+CFrameBuffer::BindForReading	CFrameBuffer.h	/^	void BindForReading();$/;"	p	class:CFrameBuffer	access:public	signature:()
+CFrameBuffer::BindForWriting	CFrameBuffer.cpp	/^void CFrameBuffer::BindForWriting()$/;"	f	class:CFrameBuffer	signature:()
+CFrameBuffer::BindForWriting	CFrameBuffer.h	/^	void BindForWriting();$/;"	p	class:CFrameBuffer	access:public	signature:()
+CFrameBuffer::CFrameBuffer	CFrameBuffer.cpp	/^CFrameBuffer::CFrameBuffer() {}$/;"	f	class:CFrameBuffer	signature:()
+CFrameBuffer::CFrameBuffer	CFrameBuffer.h	/^	CFrameBuffer();$/;"	p	class:CFrameBuffer	access:public	signature:()
+CFrameBuffer::Init	CFrameBuffer.cpp	/^bool CFrameBuffer::Init(unsigned int w, unsigned int h, int numTextures)$/;"	f	class:CFrameBuffer	signature:(unsigned int w, unsigned int h, int numTextures)
+CFrameBuffer::Init	CFrameBuffer.h	/^	bool Init(unsigned int w, unsigned int h, int numTextures);$/;"	p	class:CFrameBuffer	access:public	signature:(unsigned int w, unsigned int h, int numTextures)
+CFrameBuffer::Unbind	CFrameBuffer.cpp	/^void CFrameBuffer::Unbind()$/;"	f	class:CFrameBuffer	signature:()
+CFrameBuffer::Unbind	CFrameBuffer.h	/^	void Unbind();$/;"	p	class:CFrameBuffer	access:public	signature:()
+CFrameBuffer::m_FBO	CFrameBuffer.h	/^	GLuint m_FBO;$/;"	m	class:CFrameBuffer	access:protected
+CFrameBuffer::m_Status	CFrameBuffer.h	/^	bool m_Status;$/;"	m	class:CFrameBuffer	access:protected
+CFrameBuffer::m_Textures	CFrameBuffer.h	/^	GLuint* m_Textures;$/;"	m	class:CFrameBuffer	access:public
+CFrameBuffer::~CFrameBuffer	CFrameBuffer.cpp	/^CFrameBuffer::~CFrameBuffer()$/;"	f	class:CFrameBuffer	signature:()
+CFrameBuffer::~CFrameBuffer	CFrameBuffer.h	/^	~CFrameBuffer();$/;"	p	class:CFrameBuffer	access:public	signature:()
+CLight	CLight.cpp	/^CLight::CLight()$/;"	f	class:CLight	signature:()
+CLight	CLight.h	/^	CLight();$/;"	p	class:CLight	access:public	signature:()
+CLight	CLight.h	/^class CLight : public ISceneNode$/;"	c	inherits:ISceneNode
+CLight::CLight	CLight.cpp	/^CLight::CLight()$/;"	f	class:CLight	signature:()
+CLight::CLight	CLight.h	/^	CLight();$/;"	p	class:CLight	access:public	signature:()
+CLight::Disable	CLight.cpp	/^void CLight::Disable()$/;"	f	class:CLight	signature:()
+CLight::Disable	CLight.h	/^	void Disable();$/;"	p	class:CLight	access:public	signature:()
+CLight::Enable	CLight.cpp	/^void CLight::Enable()$/;"	f	class:CLight	signature:()
+CLight::Enable	CLight.h	/^	void Enable();$/;"	p	class:CLight	access:public	signature:()
+CLight::Enabled	CLight.cpp	/^bool CLight::Enabled()$/;"	f	class:CLight	signature:()
+CLight::Enabled	CLight.h	/^	bool Enabled();$/;"	p	class:CLight	access:public	signature:()
+CLight::GetAmbient	CLight.cpp	/^glm::vec3 CLight::GetAmbient()$/;"	f	class:CLight	signature:()
+CLight::GetAmbient	CLight.h	/^	glm::vec3 GetAmbient();$/;"	p	class:CLight	access:public	signature:()
+CLight::GetConstantAtt	CLight.h	/^	virtual float GetConstantAtt() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+CLight::GetDiffuse	CLight.cpp	/^glm::vec3 CLight::GetDiffuse()$/;"	f	class:CLight	signature:()
+CLight::GetDiffuse	CLight.h	/^	glm::vec3 GetDiffuse();$/;"	p	class:CLight	access:public	signature:()
+CLight::GetDistance	CLight.cpp	/^float CLight::GetDistance()$/;"	f	class:CLight	signature:()
+CLight::GetDistance	CLight.h	/^	float GetDistance();$/;"	p	class:CLight	access:public	signature:()
+CLight::GetLinearAtt	CLight.h	/^	virtual float GetLinearAtt() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+CLight::GetPower	CLight.cpp	/^float CLight::GetPower()$/;"	f	class:CLight	signature:()
+CLight::GetPower	CLight.h	/^	float GetPower();$/;"	p	class:CLight	access:public	signature:()
+CLight::GetQuadraticAtt	CLight.h	/^	virtual float GetQuadraticAtt() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+CLight::GetSpecular	CLight.cpp	/^glm::vec3 CLight::GetSpecular()$/;"	f	class:CLight	signature:()
+CLight::GetSpecular	CLight.h	/^	glm::vec3 GetSpecular();$/;"	p	class:CLight	access:public	signature:()
+CLight::GetSpotCutoff	CLight.h	/^	virtual float GetSpotCutoff() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+CLight::GetSpotExponent	CLight.h	/^	virtual float GetSpotExponent() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+CLight::GetType	CLight.h	/^	virtual float GetType()$/;"	f	class:CLight	access:public	signature:()
+CLight::LIGHT_TYPE	CLight.h	/^	enum LIGHT_TYPE$/;"	g	class:CLight	access:public
+CLight::LIGHT_TYPE_DIRECTIONAL	CLight.h	/^		LIGHT_TYPE_DIRECTIONAL,$/;"	e	enum:CLight::LIGHT_TYPE
+CLight::LIGHT_TYPE_ENVIRONMENTAL	CLight.h	/^		LIGHT_TYPE_ENVIRONMENTAL,$/;"	e	enum:CLight::LIGHT_TYPE
+CLight::LIGHT_TYPE_POINT	CLight.h	/^		LIGHT_TYPE_POINT,$/;"	e	enum:CLight::LIGHT_TYPE
+CLight::LIGHT_TYPE_SPOT	CLight.h	/^		LIGHT_TYPE_SPOT$/;"	e	enum:CLight::LIGHT_TYPE
+CLight::SetAmbient	CLight.cpp	/^void CLight::SetAmbient(glm::vec3 color)$/;"	f	class:CLight	signature:(glm::vec3 color)
+CLight::SetAmbient	CLight.h	/^	void SetAmbient(glm::vec3 color);$/;"	p	class:CLight	access:public	signature:(glm::vec3 color)
+CLight::SetDiffuse	CLight.cpp	/^void CLight::SetDiffuse(glm::vec3 color)$/;"	f	class:CLight	signature:(glm::vec3 color)
+CLight::SetDiffuse	CLight.h	/^	void SetDiffuse(glm::vec3 color);$/;"	p	class:CLight	access:public	signature:(glm::vec3 color)
+CLight::SetDistance	CLight.cpp	/^void CLight::SetDistance(float dist)$/;"	f	class:CLight	signature:(float dist)
+CLight::SetDistance	CLight.h	/^	void SetDistance(float dist);$/;"	p	class:CLight	access:public	signature:(float dist)
+CLight::SetPower	CLight.cpp	/^void CLight::SetPower(float power)$/;"	f	class:CLight	signature:(float power)
+CLight::SetPower	CLight.h	/^	void SetPower(float power);$/;"	p	class:CLight	access:public	signature:(float power)
+CLight::SetSpecular	CLight.cpp	/^void CLight::SetSpecular(glm::vec3 color)$/;"	f	class:CLight	signature:(glm::vec3 color)
+CLight::SetSpecular	CLight.h	/^	void SetSpecular(glm::vec3 color);$/;"	p	class:CLight	access:public	signature:(glm::vec3 color)
+CLight::m_Ambient	CLight.h	/^	glm::vec3 m_Ambient;$/;"	m	class:CLight	access:protected
+CLight::m_Diffuse	CLight.h	/^	glm::vec3 m_Diffuse;$/;"	m	class:CLight	access:protected
+CLight::m_Distance	CLight.h	/^	float m_Distance;$/;"	m	class:CLight	access:protected
+CLight::m_Enabled	CLight.h	/^	bool m_Enabled;$/;"	m	class:CLight	access:protected
+CLight::m_LightPower	CLight.h	/^	float m_LightPower;$/;"	m	class:CLight	access:protected
+CLight::m_Specular	CLight.h	/^	glm::vec3 m_Specular;$/;"	m	class:CLight	access:protected
+CLight::~CLight	CLight.cpp	/^CLight::~CLight() {}$/;"	f	class:CLight	signature:()
+CLight::~CLight	CLight.h	/^	~CLight();$/;"	p	class:CLight	access:public	signature:()
+CLightDirectional	CLightDirectional.cpp	/^CLightDirectional::CLightDirectional() {}$/;"	f	class:CLightDirectional	signature:()
+CLightDirectional	CLightDirectional.h	/^	CLightDirectional();$/;"	p	class:CLightDirectional	access:public	signature:()
+CLightDirectional	CLightDirectional.h	/^class CLightDirectional : public CLight$/;"	c	inherits:CLight
+CLightDirectional::CLightDirectional	CLightDirectional.cpp	/^CLightDirectional::CLightDirectional() {}$/;"	f	class:CLightDirectional	signature:()
+CLightDirectional::CLightDirectional	CLightDirectional.h	/^	CLightDirectional();$/;"	p	class:CLightDirectional	access:public	signature:()
+CLightDirectional::GetDirection	CLightDirectional.cpp	/^glm::vec3 CLightDirectional::GetDirection()$/;"	f	class:CLightDirectional	signature:()
+CLightDirectional::GetDirection	CLightDirectional.h	/^	glm::vec3 GetDirection();$/;"	p	class:CLightDirectional	access:public	signature:()
+CLightDirectional::GetType	CLightDirectional.cpp	/^float CLightDirectional::GetType()$/;"	f	class:CLightDirectional	signature:()
+CLightDirectional::GetType	CLightDirectional.h	/^	float GetType();$/;"	p	class:CLightDirectional	access:public	signature:()
+CLightDirectional::GetViewSpacePos	CLightDirectional.cpp	/^glm::vec4 CLightDirectional::GetViewSpacePos()$/;"	f	class:CLightDirectional	signature:()
+CLightDirectional::GetViewSpacePos	CLightDirectional.h	/^	virtual glm::vec4 GetViewSpacePos();$/;"	p	class:CLightDirectional	access:public	signature:()
+CLightDirectional::SetDirection	CLightDirectional.cpp	/^void CLightDirectional::SetDirection(glm::vec3 direction)$/;"	f	class:CLightDirectional	signature:(glm::vec3 direction)
+CLightDirectional::SetDirection	CLightDirectional.h	/^	void SetDirection(glm::vec3 direction);$/;"	p	class:CLightDirectional	access:public	signature:(glm::vec3 direction)
+CLightDirectional::~CLightDirectional	CLightDirectional.cpp	/^CLightDirectional::~CLightDirectional() {}$/;"	f	class:CLightDirectional	signature:()
+CLightDirectional::~CLightDirectional	CLightDirectional.h	/^	~CLightDirectional();$/;"	p	class:CLightDirectional	access:public	signature:()
+CLightEnvironment	CLightEnvironment.cpp	/^CLightEnvironment::CLightEnvironment() {}$/;"	f	class:CLightEnvironment	signature:()
+CLightEnvironment	CLightEnvironment.h	/^	CLightEnvironment();$/;"	p	class:CLightEnvironment	access:public	signature:()
+CLightEnvironment	CLightEnvironment.h	/^class CLightEnvironment : public CLight$/;"	c	inherits:CLight
+CLightEnvironment::CLightEnvironment	CLightEnvironment.cpp	/^CLightEnvironment::CLightEnvironment() {}$/;"	f	class:CLightEnvironment	signature:()
+CLightEnvironment::CLightEnvironment	CLightEnvironment.h	/^	CLightEnvironment();$/;"	p	class:CLightEnvironment	access:public	signature:()
+CLightEnvironment::GetType	CLightEnvironment.h	/^	virtual float GetType()$/;"	f	class:CLightEnvironment	access:public	signature:()
+CLightEnvironment::~CLightEnvironment	CLightEnvironment.cpp	/^CLightEnvironment::~CLightEnvironment() {}/;"	f	class:CLightEnvironment	signature:()
+CLightEnvironment::~CLightEnvironment	CLightEnvironment.h	/^	~CLightEnvironment();$/;"	p	class:CLightEnvironment	access:public	signature:()
+CMaterial	CMaterial.h	/^struct CMaterial$/;"	s
+CMaterial::m_Ambient	CMaterial.h	/^	glm::vec4 m_Ambient;$/;"	m	struct:CMaterial	access:public
+CMaterial::m_Diffuse	CMaterial.h	/^	glm::vec4 m_Diffuse;$/;"	m	struct:CMaterial	access:public
+CMaterial::m_Emissive	CMaterial.h	/^	glm::vec4 m_Emissive;$/;"	m	struct:CMaterial	access:public
+CMaterial::m_Shininess	CMaterial.h	/^	float m_Shininess;$/;"	m	struct:CMaterial	access:public
+CMaterial::m_Specular	CMaterial.h	/^	glm::vec4 m_Specular;$/;"	m	struct:CMaterial	access:public
+CMaterial::m_TextureCount	CMaterial.h	/^	int m_TextureCount;$/;"	m	struct:CMaterial	access:public
+CMesh	CMesh.cpp	/^CMesh::CMesh()$/;"	f	class:CMesh	signature:()
+CMesh	CMesh.h	/^	CMesh();$/;"	p	class:CMesh	access:public	signature:()
+CMesh	CMesh.h	/^class CMesh$/;"	c
+CMesh::CMesh	CMesh.cpp	/^CMesh::CMesh()$/;"	f	class:CMesh	signature:()
+CMesh::CMesh	CMesh.h	/^	CMesh();$/;"	p	class:CMesh	access:public	signature:()
+CMesh::GetMaterial	CMesh.cpp	/^CMaterial CMesh::GetMaterial()$/;"	f	class:CMesh	signature:()
+CMesh::GetMaterial	CMesh.h	/^	CMaterial GetMaterial();$/;"	p	class:CMesh	access:public	signature:()
+CMesh::SetMaterial	CMesh.cpp	/^void CMesh::SetMaterial(CMaterial material)$/;"	f	class:CMesh	signature:(CMaterial material)
+CMesh::SetMaterial	CMesh.h	/^	void SetMaterial(CMaterial material);$/;"	p	class:CMesh	access:public	signature:(CMaterial material)
+CMesh::m_IndexBuffer	CMesh.h	/^	GLuint m_IndexBuffer;$/;"	m	class:CMesh	access:public
+CMesh::m_Material	CMesh.h	/^	CMaterial m_Material;$/;"	m	class:CMesh	access:private
+CMesh::m_NormalBuffer	CMesh.h	/^	GLuint m_NormalBuffer;$/;"	m	class:CMesh	access:public
+CMesh::m_NumFaces	CMesh.h	/^	unsigned int m_NumFaces;$/;"	m	class:CMesh	access:public
+CMesh::m_TextureIndex	CMesh.h	/^	GLuint m_TextureIndex;$/;"	m	class:CMesh	access:public
+CMesh::m_UVBuffer	CMesh.h	/^	GLuint m_UVBuffer;$/;"	m	class:CMesh	access:public
+CMesh::m_UniformBlockIndex	CMesh.h	/^	GLuint m_UniformBlockIndex;$/;"	m	class:CMesh	access:public
+CMesh::m_VertexBuffer	CMesh.h	/^	GLuint m_VertexBuffer;$/;"	m	class:CMesh	access:public
+CMesh::~CMesh	CMesh.cpp	/^CMesh::~CMesh() {}$/;"	f	class:CMesh	signature:()
+CMesh::~CMesh	CMesh.h	/^	~CMesh();$/;"	p	class:CMesh	access:public	signature:()
+CMeshNode	CMeshNode.cpp	/^CMeshNode::CMeshNode()$/;"	f	class:CMeshNode	signature:()
+CMeshNode	CMeshNode.h	/^	CMeshNode();$/;"	p	class:CMeshNode	access:public	signature:()
+CMeshNode	CMeshNode.h	/^class CMeshNode : public ISceneNode$/;"	c	inherits:ISceneNode
+CMeshNode::CMeshNode	CMeshNode.cpp	/^CMeshNode::CMeshNode()$/;"	f	class:CMeshNode	signature:()
+CMeshNode::CMeshNode	CMeshNode.h	/^	CMeshNode();$/;"	p	class:CMeshNode	access:public	signature:()
+CMeshNode::ClearMaterial	CMeshNode.cpp	/^void CMeshNode::ClearMaterial()$/;"	f	class:CMeshNode	signature:()
+CMeshNode::ClearMaterial	CMeshNode.h	/^	void ClearMaterial();$/;"	p	class:CMeshNode	access:public	signature:()
+CMeshNode::Draw	CMeshNode.cpp	/^void CMeshNode::Draw(bool useShader)$/;"	f	class:CMeshNode	signature:(bool useShader)
+CMeshNode::Draw	CMeshNode.h	/^	void Draw(bool useShader = true);$/;"	p	class:CMeshNode	access:public	signature:(bool useShader = true)
+CMeshNode::GetMaterial	CMeshNode.cpp	/^CMaterial* CMeshNode::GetMaterial()$/;"	f	class:CMeshNode	signature:()
+CMeshNode::GetMaterial	CMeshNode.h	/^	CMaterial* GetMaterial();$/;"	p	class:CMeshNode	access:public	signature:()
+CMeshNode::GetModel	CMeshNode.cpp	/^CModel* CMeshNode::GetModel()$/;"	f	class:CMeshNode	signature:()
+CMeshNode::GetModel	CMeshNode.h	/^	CModel* GetModel();$/;"	p	class:CMeshNode	access:public	signature:()
+CMeshNode::GetShader	CMeshNode.cpp	/^CShader* CMeshNode::GetShader()$/;"	f	class:CMeshNode	signature:()
+CMeshNode::GetShader	CMeshNode.h	/^	CShader* GetShader();$/;"	p	class:CMeshNode	access:public	signature:()
+CMeshNode::SetMaterial	CMeshNode.cpp	/^void CMeshNode::SetMaterial(CMaterial* mat)$/;"	f	class:CMeshNode	signature:(CMaterial* mat)
+CMeshNode::SetMaterial	CMeshNode.h	/^	void SetMaterial(CMaterial* mat);$/;"	p	class:CMeshNode	access:public	signature:(CMaterial* mat)
+CMeshNode::SetModel	CMeshNode.cpp	/^void CMeshNode::SetModel(CModel* model)$/;"	f	class:CMeshNode	signature:(CModel* model)
+CMeshNode::SetModel	CMeshNode.h	/^	void SetModel(CModel* model);$/;"	p	class:CMeshNode	access:public	signature:(CModel* model)
+CMeshNode::SetShader	CMeshNode.cpp	/^void CMeshNode::SetShader(CShader* shader)$/;"	f	class:CMeshNode	signature:(CShader* shader)
+CMeshNode::SetShader	CMeshNode.h	/^	void SetShader(CShader* shader);$/;"	p	class:CMeshNode	access:public	signature:(CShader* shader)
+CMeshNode::UpdateShader	CMeshNode.h	/^	void UpdateShader(CMesh* mesh = 0, CLight* light = 0);$/;"	p	class:CMeshNode	access:public	signature:(CMesh* mesh = 0, CLight* light = 0)
+CMeshNode::m_Material	CMeshNode.h	/^	CMaterial* m_Material;$/;"	m	class:CMeshNode	access:private
+CMeshNode::m_Model	CMeshNode.h	/^	CModel* m_Model;$/;"	m	class:CMeshNode	access:private
+CMeshNode::m_Shader	CMeshNode.h	/^	CShader* m_Shader;$/;"	m	class:CMeshNode	access:private
+CMeshNode::~CMeshNode	CMeshNode.cpp	/^CMeshNode::~CMeshNode() {}$/;"	f	class:CMeshNode	signature:()
+CMeshNode::~CMeshNode	CMeshNode.h	/^	~CMeshNode();$/;"	p	class:CMeshNode	access:public	signature:()
+CModel	CModel.cpp	/^CModel::CModel() {}$/;"	f	class:CModel	signature:()
+CModel	CModel.h	/^	CModel();$/;"	p	class:CModel	access:public	signature:()
+CModel	CModel.h	/^class CModel$/;"	c
+CModel::AddMesh	CModel.cpp	/^void CModel::AddMesh(CMesh* mesh)$/;"	f	class:CModel	signature:(CMesh* mesh)
+CModel::AddMesh	CModel.h	/^	void AddMesh(CMesh* mesh);$/;"	p	class:CModel	access:public	signature:(CMesh* mesh)
+CModel::CModel	CModel.cpp	/^CModel::CModel() {}$/;"	f	class:CModel	signature:()
+CModel::CModel	CModel.h	/^	CModel();$/;"	p	class:CModel	access:public	signature:()
+CModel::GetMesh	CModel.cpp	/^CMesh* CModel::GetMesh(unsigned int index)$/;"	f	class:CModel	signature:(unsigned int index)
+CModel::GetMesh	CModel.h	/^	CMesh* GetMesh(unsigned int index);$/;"	p	class:CModel	access:public	signature:(unsigned int index)
+CModel::GetMeshCount	CModel.cpp	/^unsigned int CModel::GetMeshCount()$/;"	f	class:CModel	signature:()
+CModel::GetMeshCount	CModel.h	/^	unsigned int GetMeshCount();$/;"	p	class:CModel	access:public	signature:()
+CModel::m_Meshes	CModel.h	/^	std::vector<CMesh*> m_Meshes;$/;"	m	class:CModel	access:private
+CModel::~CModel	CModel.cpp	/^CModel::~CModel()$/;"	f	class:CModel	signature:()
+CModel::~CModel	CModel.h	/^	~CModel();$/;"	p	class:CModel	access:public	signature:()
+CPointLight	CPointLight.cpp	/^CPointLight::CPointLight()$/;"	f	class:CPointLight	signature:()
+CPointLight	CPointLight.h	/^	CPointLight();$/;"	p	class:CPointLight	access:public	signature:()
+CPointLight	CPointLight.h	/^class CPointLight : public CLight$/;"	c	inherits:CLight
+CPointLight::CPointLight	CPointLight.cpp	/^CPointLight::CPointLight()$/;"	f	class:CPointLight	signature:()
+CPointLight::CPointLight	CPointLight.h	/^	CPointLight();$/;"	p	class:CPointLight	access:public	signature:()
+CPointLight::GetConstantAtt	CPointLight.cpp	/^float CPointLight::GetConstantAtt()$/;"	f	class:CPointLight	signature:()
+CPointLight::GetConstantAtt	CPointLight.h	/^	float GetConstantAtt();$/;"	p	class:CPointLight	access:public	signature:()
+CPointLight::GetLinearAtt	CPointLight.cpp	/^float CPointLight::GetLinearAtt()$/;"	f	class:CPointLight	signature:()
+CPointLight::GetLinearAtt	CPointLight.h	/^	float GetLinearAtt();$/;"	p	class:CPointLight	access:public	signature:()
+CPointLight::GetQuadraticAtt	CPointLight.cpp	/^float CPointLight::GetQuadraticAtt()$/;"	f	class:CPointLight	signature:()
+CPointLight::GetQuadraticAtt	CPointLight.h	/^	float GetQuadraticAtt();$/;"	p	class:CPointLight	access:public	signature:()
+CPointLight::GetType	CPointLight.cpp	/^float CPointLight::GetType()$/;"	f	class:CPointLight	signature:()
+CPointLight::GetType	CPointLight.h	/^	float GetType();$/;"	p	class:CPointLight	access:public	signature:()
+CPointLight::SetAttenuation	CPointLight.cpp	/^void CPointLight::SetAttenuation(float c, float l, float q)$/;"	f	class:CPointLight	signature:(float c, float l, float q)
+CPointLight::SetAttenuation	CPointLight.h	/^	void SetAttenuation(float c, float l, float q);$/;"	p	class:CPointLight	access:public	signature:(float c, float l, float q)
+CPointLight::SetConstantAtt	CPointLight.cpp	/^void CPointLight::SetConstantAtt(float c)$/;"	f	class:CPointLight	signature:(float c)
+CPointLight::SetConstantAtt	CPointLight.h	/^	void SetConstantAtt(float c);$/;"	p	class:CPointLight	access:public	signature:(float c)
+CPointLight::SetLinearAtt	CPointLight.cpp	/^void CPointLight::SetLinearAtt(float l)$/;"	f	class:CPointLight	signature:(float l)
+CPointLight::SetLinearAtt	CPointLight.h	/^	void SetLinearAtt(float l);$/;"	p	class:CPointLight	access:public	signature:(float l)
+CPointLight::SetQuadraticAtt	CPointLight.cpp	/^void CPointLight::SetQuadraticAtt(float q)$/;"	f	class:CPointLight	signature:(float q)
+CPointLight::SetQuadraticAtt	CPointLight.h	/^	void SetQuadraticAtt(float q);$/;"	p	class:CPointLight	access:public	signature:(float q)
+CPointLight::m_ConstantAtt	CPointLight.h	/^	float m_ConstantAtt;$/;"	m	class:CPointLight	access:private
+CPointLight::m_LinearAtt	CPointLight.h	/^	float m_LinearAtt;$/;"	m	class:CPointLight	access:private
+CPointLight::m_QuadraticAtt	CPointLight.h	/^	float m_QuadraticAtt;$/;"	m	class:CPointLight	access:private
+CPointLight::~CPointLight	CPointLight.cpp	/^CPointLight::~CPointLight() {}$/;"	f	class:CPointLight	signature:()
+CPointLight::~CPointLight	CPointLight.h	/^	~CPointLight();$/;"	p	class:CPointLight	access:public	signature:()
+CPostProcessChain	CPostProcessChain.cpp	/^CPostProcessChain::CPostProcessChain() {}$/;"	f	class:CPostProcessChain	signature:()
+CPostProcessChain	CPostProcessChain.h	/^	CPostProcessChain();$/;"	p	class:CPostProcessChain	access:public	signature:()
+CPostProcessChain	CPostProcessChain.h	/^class CPostProcessChain$/;"	c
+CPostProcessChain::AddShader	CPostProcessChain.cpp	/^void CPostProcessChain::AddShader(CShader* shader)$/;"	f	class:CPostProcessChain	signature:(CShader* shader)
+CPostProcessChain::AddShader	CPostProcessChain.h	/^	void AddShader(CShader* shader);$/;"	p	class:CPostProcessChain	access:public	signature:(CShader* shader)
+CPostProcessChain::CPostProcessChain	CPostProcessChain.cpp	/^CPostProcessChain::CPostProcessChain() {}$/;"	f	class:CPostProcessChain	signature:()
+CPostProcessChain::CPostProcessChain	CPostProcessChain.h	/^	CPostProcessChain();$/;"	p	class:CPostProcessChain	access:public	signature:()
+CPostProcessChain::Render	CPostProcessChain.cpp	/^void CPostProcessChain::Render()$/;"	f	class:CPostProcessChain	signature:()
+CPostProcessChain::Render	CPostProcessChain.h	/^	void Render();$/;"	p	class:CPostProcessChain	access:public	signature:()
+CPostProcessChain::m_Shaders	CPostProcessChain.h	/^	std::vector<CShader*> m_Shaders;$/;"	m	class:CPostProcessChain	access:private
+CPostProcessChain::~CPostProcessChain	CPostProcessChain.cpp	/^CPostProcessChain::~CPostProcessChain() {}$/;"	f	class:CPostProcessChain	signature:()
+CPostProcessChain::~CPostProcessChain	CPostProcessChain.h	/^	~CPostProcessChain();$/;"	p	class:CPostProcessChain	access:public	signature:()
+CShader	CShader.cpp	/^CShader::CShader() {}$/;"	f	class:CShader	signature:()
+CShader	CShader.cpp	/^CShader::CShader(std::string vs_path, std::string ps_path)$/;"	f	class:CShader	signature:(std::string vs_path, std::string ps_path)
+CShader	CShader.h	/^	CShader();$/;"	p	class:CShader	access:public	signature:()
+CShader	CShader.h	/^	CShader(std::string vs_path, std::string ps_path);$/;"	p	class:CShader	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader	CShader.h	/^class CShader$/;"	c
+CShader::Activate	CShader.cpp	/^void CShader::Activate()$/;"	f	class:CShader	signature:()
+CShader::Activate	CShader.h	/^	virtual void Activate();$/;"	p	class:CShader	access:public	signature:()
+CShader::CShader	CShader.cpp	/^CShader::CShader() {}$/;"	f	class:CShader	signature:()
+CShader::CShader	CShader.cpp	/^CShader::CShader(std::string vs_path, std::string ps_path)$/;"	f	class:CShader	signature:(std::string vs_path, std::string ps_path)
+CShader::CShader	CShader.h	/^	CShader();$/;"	p	class:CShader	access:public	signature:()
+CShader::CShader	CShader.h	/^	CShader(std::string vs_path, std::string ps_path);$/;"	p	class:CShader	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader::GetID	CShader.cpp	/^GLuint CShader::GetID()$/;"	f	class:CShader	signature:()
+CShader::GetID	CShader.h	/^	GLuint GetID();$/;"	p	class:CShader	access:public	signature:()
+CShader::Render	CShader.cpp	/^void CShader::Render() {}$/;"	f	class:CShader	signature:()
+CShader::Render	CShader.h	/^	virtual void Render();$/;"	p	class:CShader	access:public	signature:()
+CShader::Update	CShader.cpp	/^void CShader::Update() {}$/;"	f	class:CShader	signature:()
+CShader::Update	CShader.h	/^	virtual void Update();$/;"	p	class:CShader	access:public	signature:()
+CShader::m_Id	CShader.h	/^	GLuint m_Id;$/;"	m	class:CShader	access:protected
+CShader::~CShader	CShader.cpp	/^CShader::~CShader() {}$/;"	f	class:CShader	signature:()
+CShader::~CShader	CShader.h	/^	~CShader();$/;"	p	class:CShader	access:public	signature:()
+CShader_Deferred	CShader_Deferred.cpp	/^CShader_Deferred::CShader_Deferred(std::string vs_path, std::string ps_path)$/;"	f	class:CShader_Deferred	signature:(std::string vs_path, std::string ps_path)
+CShader_Deferred	CShader_Deferred.h	/^	CShader_Deferred(std::string vs_path, std::string ps_path);$/;"	p	class:CShader_Deferred	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader_Deferred	CShader_Deferred.h	/^class CShader_Deferred : public CShader$/;"	c	inherits:CShader
+CShader_Deferred::Activate	CShader_Deferred.cpp	/^void CShader_Deferred::Activate()$/;"	f	class:CShader_Deferred	signature:()
+CShader_Deferred::Activate	CShader_Deferred.h	/^	virtual void Activate();$/;"	p	class:CShader_Deferred	access:public	signature:()
+CShader_Deferred::CShader_Deferred	CShader_Deferred.cpp	/^CShader_Deferred::CShader_Deferred(std::string vs_path, std::string ps_path)$/;"	f	class:CShader_Deferred	signature:(std::string vs_path, std::string ps_path)
+CShader_Deferred::CShader_Deferred	CShader_Deferred.h	/^	CShader_Deferred(std::string vs_path, std::string ps_path);$/;"	p	class:CShader_Deferred	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader_Deferred::PreLink	CShader_Deferred.cpp	/^void CShader_Deferred::PreLink(GLuint ID) {}$/;"	f	class:CShader_Deferred	signature:(GLuint ID)
+CShader_Deferred::PreLink	CShader_Deferred.h	/^	virtual void PreLink(GLuint ID);$/;"	p	class:CShader_Deferred	access:public	signature:(GLuint ID)
+CShader_Deferred::Render	CShader_Deferred.cpp	/^void CShader_Deferred::Render()$/;"	f	class:CShader_Deferred	signature:()
+CShader_Deferred::Render	CShader_Deferred.h	/^	virtual void Render();$/;"	p	class:CShader_Deferred	access:public	signature:()
+CShader_Deferred::Update	CShader_Deferred.cpp	/^void CShader_Deferred::Update()$/;"	f	class:CShader_Deferred	signature:()
+CShader_Deferred::Update	CShader_Deferred.h	/^	virtual void Update();$/;"	p	class:CShader_Deferred	access:public	signature:()
+CShader_Deferred::~CShader_Deferred	CShader_Deferred.cpp	/^CShader_Deferred::~CShader_Deferred() {}$/;"	f	class:CShader_Deferred	signature:()
+CShader_Deferred::~CShader_Deferred	CShader_Deferred.h	/^	~CShader_Deferred();$/;"	p	class:CShader_Deferred	access:public	signature:()
+CShader_GBuffer	CShader_GBuffer.cpp	/^CShader_GBuffer::CShader_GBuffer(std::string vs_path, std::string ps_path)$/;"	f	class:CShader_GBuffer	signature:(std::string vs_path, std::string ps_path)
+CShader_GBuffer	CShader_GBuffer.h	/^	CShader_GBuffer(std::string vs_path, std::string ps_path);$/;"	p	class:CShader_GBuffer	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader_GBuffer	CShader_GBuffer.h	/^class CShader_GBuffer : public CShader$/;"	c	inherits:CShader
+CShader_GBuffer::Activate	CShader_GBuffer.cpp	/^void CShader_GBuffer::Activate()$/;"	f	class:CShader_GBuffer	signature:()
+CShader_GBuffer::Activate	CShader_GBuffer.h	/^	virtual void Activate();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+CShader_GBuffer::CShader_GBuffer	CShader_GBuffer.cpp	/^CShader_GBuffer::CShader_GBuffer(std::string vs_path, std::string ps_path)$/;"	f	class:CShader_GBuffer	signature:(std::string vs_path, std::string ps_path)
+CShader_GBuffer::CShader_GBuffer	CShader_GBuffer.h	/^	CShader_GBuffer(std::string vs_path, std::string ps_path);$/;"	p	class:CShader_GBuffer	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader_GBuffer::PreLink	CShader_GBuffer.cpp	/^void CShader_GBuffer::PreLink(GLuint ID)$/;"	f	class:CShader_GBuffer	signature:(GLuint ID)
+CShader_GBuffer::PreLink	CShader_GBuffer.h	/^	virtual void PreLink(GLuint ID);$/;"	p	class:CShader_GBuffer	access:public	signature:(GLuint ID)
+CShader_GBuffer::Render	CShader_GBuffer.cpp	/^void CShader_GBuffer::Render()$/;"	f	class:CShader_GBuffer	signature:()
+CShader_GBuffer::Render	CShader_GBuffer.h	/^	virtual void Render();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+CShader_GBuffer::Update	CShader_GBuffer.cpp	/^void CShader_GBuffer::Update()$/;"	f	class:CShader_GBuffer	signature:()
+CShader_GBuffer::Update	CShader_GBuffer.h	/^	virtual void Update();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+CShader_GBuffer::~CShader_GBuffer	CShader_GBuffer.cpp	/^CShader_GBuffer::~CShader_GBuffer() {}$/;"	f	class:CShader_GBuffer	signature:()
+CShader_GBuffer::~CShader_GBuffer	CShader_GBuffer.h	/^	~CShader_GBuffer();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+CShader_SSAO	CShader_SSAO.cpp	/^CShader_SSAO::CShader_SSAO(std::string vs_path, std::string ps_path)$/;"	f	class:CShader_SSAO	signature:(std::string vs_path, std::string ps_path)
+CShader_SSAO	CShader_SSAO.h	/^	CShader_SSAO(std::string vs_path, std::string ps_path);$/;"	p	class:CShader_SSAO	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader_SSAO	CShader_SSAO.h	/^class CShader_SSAO : public CShader$/;"	c	inherits:CShader
+CShader_SSAO::Activate	CShader_SSAO.cpp	/^void CShader_SSAO::Activate()$/;"	f	class:CShader_SSAO	signature:()
+CShader_SSAO::Activate	CShader_SSAO.h	/^	virtual void Activate();$/;"	p	class:CShader_SSAO	access:public	signature:()
+CShader_SSAO::ActivateBlurPass	CShader_SSAO.h	/^	void ActivateBlurPass();$/;"	p	class:CShader_SSAO	access:public	signature:()
+CShader_SSAO::CShader_SSAO	CShader_SSAO.cpp	/^CShader_SSAO::CShader_SSAO(std::string vs_path, std::string ps_path)$/;"	f	class:CShader_SSAO	signature:(std::string vs_path, std::string ps_path)
+CShader_SSAO::CShader_SSAO	CShader_SSAO.h	/^	CShader_SSAO(std::string vs_path, std::string ps_path);$/;"	p	class:CShader_SSAO	access:public	signature:(std::string vs_path, std::string ps_path)
+CShader_SSAO::PreLink	CShader_SSAO.cpp	/^void CShader_SSAO::PreLink(GLuint ID) {}$/;"	f	class:CShader_SSAO	signature:(GLuint ID)
+CShader_SSAO::PreLink	CShader_SSAO.h	/^	virtual void PreLink(GLuint ID);$/;"	p	class:CShader_SSAO	access:public	signature:(GLuint ID)
+CShader_SSAO::Render	CShader_SSAO.cpp	/^void CShader_SSAO::Render()$/;"	f	class:CShader_SSAO	signature:()
+CShader_SSAO::Render	CShader_SSAO.h	/^	virtual void Render();$/;"	p	class:CShader_SSAO	access:public	signature:()
+CShader_SSAO::Update	CShader_SSAO.cpp	/^void CShader_SSAO::Update()$/;"	f	class:CShader_SSAO	signature:()
+CShader_SSAO::Update	CShader_SSAO.h	/^	virtual void Update();$/;"	p	class:CShader_SSAO	access:public	signature:()
+CShader_SSAO::m_Kernel	CShader_SSAO.h	/^	GLfloat* m_Kernel;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::m_KernelSize	CShader_SSAO.h	/^	unsigned int m_KernelSize;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::m_NoiseSize	CShader_SSAO.h	/^	unsigned int m_NoiseSize;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::m_NoiseTexture	CShader_SSAO.h	/^	GLuint m_NoiseTexture;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::m_ReadBuffer	CShader_SSAO.h	/^	CFrameBuffer* m_ReadBuffer;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::m_SSAO_Buffer	CShader_SSAO.h	/^	CFrameBuffer m_SSAO_Buffer;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::m_WriteBuffer	CShader_SSAO.h	/^	CFrameBuffer* m_WriteBuffer;$/;"	m	class:CShader_SSAO	access:private
+CShader_SSAO::~CShader_SSAO	CShader_SSAO.cpp	/^CShader_SSAO::~CShader_SSAO() {}$/;"	f	class:CShader_SSAO	signature:()
+CShader_SSAO::~CShader_SSAO	CShader_SSAO.h	/^	~CShader_SSAO();$/;"	p	class:CShader_SSAO	access:public	signature:()
+CSpotLight	CSpotLight.cpp	/^CSpotLight::CSpotLight()$/;"	f	class:CSpotLight	signature:()
+CSpotLight	CSpotLight.h	/^	CSpotLight();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight	CSpotLight.h	/^class CSpotLight : public CLight$/;"	c	inherits:CLight
+CSpotLight::CSpotLight	CSpotLight.cpp	/^CSpotLight::CSpotLight()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::CSpotLight	CSpotLight.h	/^	CSpotLight();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::GetConstantAtt	CSpotLight.cpp	/^float CSpotLight::GetConstantAtt()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::GetConstantAtt	CSpotLight.h	/^	float GetConstantAtt();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::GetLinearAtt	CSpotLight.cpp	/^float CSpotLight::GetLinearAtt()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::GetLinearAtt	CSpotLight.h	/^	float GetLinearAtt();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::GetQuadraticAtt	CSpotLight.cpp	/^float CSpotLight::GetQuadraticAtt()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::GetQuadraticAtt	CSpotLight.h	/^	float GetQuadraticAtt();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::GetSpotCutoff	CSpotLight.cpp	/^float CSpotLight::GetSpotCutoff()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::GetSpotCutoff	CSpotLight.h	/^	float GetSpotCutoff();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::GetSpotExponent	CSpotLight.cpp	/^float CSpotLight::GetSpotExponent()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::GetSpotExponent	CSpotLight.h	/^	float GetSpotExponent();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::GetType	CSpotLight.cpp	/^float CSpotLight::GetType()$/;"	f	class:CSpotLight	signature:()
+CSpotLight::GetType	CSpotLight.h	/^	float GetType();$/;"	p	class:CSpotLight	access:public	signature:()
+CSpotLight::SetAttenuation	CSpotLight.cpp	/^void CSpotLight::SetAttenuation(float c, float l, float q)$/;"	f	class:CSpotLight	signature:(float c, float l, float q)
+CSpotLight::SetAttenuation	CSpotLight.h	/^	void SetAttenuation(float c, float l, float q);$/;"	p	class:CSpotLight	access:public	signature:(float c, float l, float q)
+CSpotLight::SetConstantAtt	CSpotLight.cpp	/^void CSpotLight::SetConstantAtt(float c)$/;"	f	class:CSpotLight	signature:(float c)
+CSpotLight::SetConstantAtt	CSpotLight.h	/^	void SetConstantAtt(float c);$/;"	p	class:CSpotLight	access:public	signature:(float c)
+CSpotLight::SetLinearAtt	CSpotLight.cpp	/^void CSpotLight::SetLinearAtt(float l)$/;"	f	class:CSpotLight	signature:(float l)
+CSpotLight::SetLinearAtt	CSpotLight.h	/^	void SetLinearAtt(float l);$/;"	p	class:CSpotLight	access:public	signature:(float l)
+CSpotLight::SetQuadraticAtt	CSpotLight.cpp	/^void CSpotLight::SetQuadraticAtt(float q)$/;"	f	class:CSpotLight	signature:(float q)
+CSpotLight::SetQuadraticAtt	CSpotLight.h	/^	void SetQuadraticAtt(float q);$/;"	p	class:CSpotLight	access:public	signature:(float q)
+CSpotLight::SetSpotCutoff	CSpotLight.cpp	/^void CSpotLight::SetSpotCutoff(float cutoff)$/;"	f	class:CSpotLight	signature:(float cutoff)
+CSpotLight::SetSpotCutoff	CSpotLight.h	/^	void SetSpotCutoff(float cutoff);$/;"	p	class:CSpotLight	access:public	signature:(float cutoff)
+CSpotLight::SetSpotExponent	CSpotLight.cpp	/^void CSpotLight::SetSpotExponent(float exponent)$/;"	f	class:CSpotLight	signature:(float exponent)
+CSpotLight::SetSpotExponent	CSpotLight.h	/^	void SetSpotExponent(float exponent);$/;"	p	class:CSpotLight	access:public	signature:(float exponent)
+CSpotLight::m_ConstantAtt	CSpotLight.h	/^	float m_ConstantAtt;$/;"	m	class:CSpotLight	access:private
+CSpotLight::m_Cutoff	CSpotLight.h	/^	float m_Cutoff;$/;"	m	class:CSpotLight	access:private
+CSpotLight::m_Exponent	CSpotLight.h	/^	float m_Exponent;$/;"	m	class:CSpotLight	access:private
+CSpotLight::m_LinearAtt	CSpotLight.h	/^	float m_LinearAtt;$/;"	m	class:CSpotLight	access:private
+CSpotLight::m_QuadraticAtt	CSpotLight.h	/^	float m_QuadraticAtt;$/;"	m	class:CSpotLight	access:private
+CSpotLight::~CSpotLight	CSpotLight.cpp	/^CSpotLight::~CSpotLight() {}$/;"	f	class:CSpotLight	signature:()
+CSpotLight::~CSpotLight	CSpotLight.h	/^	~CSpotLight();$/;"	p	class:CSpotLight	access:public	signature:()
+ClearMaterial	CMeshNode.cpp	/^void CMeshNode::ClearMaterial()$/;"	f	class:CMeshNode	signature:()
+ClearMaterial	CMeshNode.h	/^	void ClearMaterial();$/;"	p	class:CMeshNode	access:public	signature:()
+CurTime	kopengi.cpp	/^double CurTime()$/;"	f	signature:()
+CurTime	kopengi.h	/^double CurTime(); \/\/ Gets the current game time$/;"	p	signature:()
+Disable	CLight.cpp	/^void CLight::Disable()$/;"	f	class:CLight	signature:()
+Disable	CLight.h	/^	void Disable();$/;"	p	class:CLight	access:public	signature:()
+Draw	CMeshNode.cpp	/^void CMeshNode::Draw(bool useShader)$/;"	f	class:CMeshNode	signature:(bool useShader)
+Draw	CMeshNode.h	/^	void Draw(bool useShader = true);$/;"	p	class:CMeshNode	access:public	signature:(bool useShader = true)
+Draw	IRenderSystem.cpp	/^void IRenderSystem::Draw()$/;"	f	class:IRenderSystem	signature:()
+Draw	IRenderSystem.h	/^	void Draw();$/;"	p	class:IRenderSystem	access:public	signature:()
+Draw	ISceneManager.cpp	/^void ISceneManager::Draw(bool useShader)$/;"	f	class:ISceneManager	signature:(bool useShader)
+Draw	ISceneManager.h	/^	void Draw(bool useShader = true);$/;"	p	class:ISceneManager	access:public	signature:(bool useShader = true)
+Draw	ISceneNode.cpp	/^void ISceneNode::Draw(bool useShader) {}$/;"	f	class:ISceneNode	signature:(bool useShader)
+Draw	ISceneNode.h	/^	virtual void Draw(bool useShader = true);$/;"	p	class:ISceneNode	access:public	signature:(bool useShader = true)
+Empty	ISceneManager.cpp	/^void ISceneManager::Empty()$/;"	f	class:ISceneManager	signature:()
+Empty	ISceneManager.h	/^	void Empty();$/;"	p	class:ISceneManager	access:public	signature:()
+Enable	CLight.cpp	/^void CLight::Enable()$/;"	f	class:CLight	signature:()
+Enable	CLight.h	/^	void Enable();$/;"	p	class:CLight	access:public	signature:()
+Enabled	CLight.cpp	/^bool CLight::Enabled()$/;"	f	class:CLight	signature:()
+Enabled	CLight.h	/^	bool Enabled();$/;"	p	class:CLight	access:public	signature:()
+GBUFFER_NUM_TEXTURES	GBuffer.h	/^		GBUFFER_NUM_TEXTURES$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBUFFER_TEXTURE_TYPE	GBuffer.h	/^	enum GBUFFER_TEXTURE_TYPE$/;"	g	class:GBuffer	access:public
+GBUFFER_TEXTURE_TYPE_DEPTH	GBuffer.h	/^		GBUFFER_TEXTURE_TYPE_DEPTH,$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBUFFER_TEXTURE_TYPE_DIFFUSE	GBuffer.h	/^		GBUFFER_TEXTURE_TYPE_DIFFUSE,$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBUFFER_TEXTURE_TYPE_NORMAL	GBuffer.h	/^		GBUFFER_TEXTURE_TYPE_NORMAL,$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBuffer	GBuffer.cpp	/^GBuffer::GBuffer() {}$/;"	f	class:GBuffer	signature:()
+GBuffer	GBuffer.h	/^	GBuffer();$/;"	p	class:GBuffer	access:public	signature:()
+GBuffer	GBuffer.h	/^class GBuffer$/;"	c
+GBuffer::BindForReading	GBuffer.cpp	/^void GBuffer::BindForReading()$/;"	f	class:GBuffer	signature:()
+GBuffer::BindForReading	GBuffer.h	/^	void BindForReading();$/;"	p	class:GBuffer	access:public	signature:()
+GBuffer::BindForWriting	GBuffer.cpp	/^void GBuffer::BindForWriting()$/;"	f	class:GBuffer	signature:()
+GBuffer::BindForWriting	GBuffer.h	/^	void BindForWriting();$/;"	p	class:GBuffer	access:public	signature:()
+GBuffer::GBUFFER_NUM_TEXTURES	GBuffer.h	/^		GBUFFER_NUM_TEXTURES$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBuffer::GBUFFER_TEXTURE_TYPE	GBuffer.h	/^	enum GBUFFER_TEXTURE_TYPE$/;"	g	class:GBuffer	access:public
+GBuffer::GBUFFER_TEXTURE_TYPE_DEPTH	GBuffer.h	/^		GBUFFER_TEXTURE_TYPE_DEPTH,$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBuffer::GBUFFER_TEXTURE_TYPE_DIFFUSE	GBuffer.h	/^		GBUFFER_TEXTURE_TYPE_DIFFUSE,$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBuffer::GBUFFER_TEXTURE_TYPE_NORMAL	GBuffer.h	/^		GBUFFER_TEXTURE_TYPE_NORMAL,$/;"	e	enum:GBuffer::GBUFFER_TEXTURE_TYPE
+GBuffer::GBuffer	GBuffer.cpp	/^GBuffer::GBuffer() {}$/;"	f	class:GBuffer	signature:()
+GBuffer::GBuffer	GBuffer.h	/^	GBuffer();$/;"	p	class:GBuffer	access:public	signature:()
+GBuffer::Init	GBuffer.cpp	/^bool GBuffer::Init(unsigned int w, unsigned int h)$/;"	f	class:GBuffer	signature:(unsigned int w, unsigned int h)
+GBuffer::Init	GBuffer.h	/^	bool Init(unsigned int w, unsigned int h);$/;"	p	class:GBuffer	access:public	signature:(unsigned int w, unsigned int h)
+GBuffer::Unbind	GBuffer.cpp	/^void GBuffer::Unbind()$/;"	f	class:GBuffer	signature:()
+GBuffer::Unbind	GBuffer.h	/^	void Unbind();$/;"	p	class:GBuffer	access:public	signature:()
+GBuffer::m_DepthTexture	GBuffer.h	/^	GLuint m_DepthTexture;$/;"	m	class:GBuffer	access:private
+GBuffer::m_FBO	GBuffer.h	/^	GLuint m_FBO;$/;"	m	class:GBuffer	access:private
+GBuffer::m_Status	GBuffer.h	/^	bool m_Status;$/;"	m	class:GBuffer	access:private
+GBuffer::m_Textures	GBuffer.h	/^	GLuint m_Textures[GBUFFER_NUM_TEXTURES];$/;"	m	class:GBuffer	access:public
+GBuffer::~GBuffer	GBuffer.cpp	/^GBuffer::~GBuffer()$/;"	f	class:GBuffer	signature:()
+GBuffer::~GBuffer	GBuffer.h	/^	~GBuffer();$/;"	p	class:GBuffer	access:public	signature:()
+GetAmbient	CLight.cpp	/^glm::vec3 CLight::GetAmbient()$/;"	f	class:CLight	signature:()
+GetAmbient	CLight.h	/^	glm::vec3 GetAmbient();$/;"	p	class:CLight	access:public	signature:()
+GetAmbientLight	IRenderSystem.cpp	/^glm::vec3 IRenderSystem::GetAmbientLight()$/;"	f	class:IRenderSystem	signature:()
+GetAmbientLight	IRenderSystem.h	/^	glm::vec3 GetAmbientLight();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetAngles	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetAngles()$/;"	f	class:ISceneNode	signature:()
+GetAngles	ISceneNode.h	/^	virtual glm::vec3 GetAngles();$/;"	p	class:ISceneNode	access:public	signature:()
+GetAnglesAbsolute	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetAnglesAbsolute()$/;"	f	class:ISceneNode	signature:()
+GetAnglesAbsolute	ISceneNode.h	/^	virtual glm::vec3 GetAnglesAbsolute();$/;"	p	class:ISceneNode	access:public	signature:()
+GetCamera	IRenderSystem.cpp	/^CCameraNode* IRenderSystem::GetCamera()$/;"	f	class:IRenderSystem	signature:()
+GetCamera	IRenderSystem.h	/^	CCameraNode* GetCamera();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetConstantAtt	CLight.h	/^	virtual float GetConstantAtt() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+GetConstantAtt	CPointLight.cpp	/^float CPointLight::GetConstantAtt()$/;"	f	class:CPointLight	signature:()
+GetConstantAtt	CPointLight.h	/^	float GetConstantAtt();$/;"	p	class:CPointLight	access:public	signature:()
+GetConstantAtt	CSpotLight.cpp	/^float CSpotLight::GetConstantAtt()$/;"	f	class:CSpotLight	signature:()
+GetConstantAtt	CSpotLight.h	/^	float GetConstantAtt();$/;"	p	class:CSpotLight	access:public	signature:()
+GetContentSystem	IGame.cpp	/^IContentSystem* IGame::GetContentSystem()$/;"	f	class:IGame	signature:()
+GetContentSystem	IGame.h	/^	IContentSystem* GetContentSystem();$/;"	p	class:IGame	access:public	signature:()
+GetCurLight	IRenderSystem.cpp	/^CLight* IRenderSystem::GetCurLight()$/;"	f	class:IRenderSystem	signature:()
+GetCurLight	IRenderSystem.h	/^	CLight* GetCurLight();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetCurMaterial	IRenderSystem.cpp	/^CMaterial* IRenderSystem::GetCurMaterial()$/;"	f	class:IRenderSystem	signature:()
+GetCurMaterial	IRenderSystem.h	/^	CMaterial* GetCurMaterial();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetCurMesh	IRenderSystem.cpp	/^CMesh* IRenderSystem::GetCurMesh()$/;"	f	class:IRenderSystem	signature:()
+GetCurMesh	IRenderSystem.h	/^	CMesh* GetCurMesh();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetCurShader	IRenderSystem.cpp	/^CShader* IRenderSystem::GetCurShader()$/;"	f	class:IRenderSystem	signature:()
+GetCurShader	IRenderSystem.h	/^	CShader* GetCurShader();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetDiffuse	CLight.cpp	/^glm::vec3 CLight::GetDiffuse()$/;"	f	class:CLight	signature:()
+GetDiffuse	CLight.h	/^	glm::vec3 GetDiffuse();$/;"	p	class:CLight	access:public	signature:()
+GetDirection	CCameraNode.cpp	/^glm::vec3 CCameraNode::GetDirection()$/;"	f	class:CCameraNode	signature:()
+GetDirection	CCameraNode.h	/^	glm::vec3 GetDirection();$/;"	p	class:CCameraNode	access:public	signature:()
+GetDirection	CLightDirectional.cpp	/^glm::vec3 CLightDirectional::GetDirection()$/;"	f	class:CLightDirectional	signature:()
+GetDirection	CLightDirectional.h	/^	glm::vec3 GetDirection();$/;"	p	class:CLightDirectional	access:public	signature:()
+GetDistance	CLight.cpp	/^float CLight::GetDistance()$/;"	f	class:CLight	signature:()
+GetDistance	CLight.h	/^	float GetDistance();$/;"	p	class:CLight	access:public	signature:()
+GetErrorTexture	IContentSystem.cpp	/^GLuint IContentSystem::GetErrorTexture()$/;"	f	class:IContentSystem	signature:()
+GetErrorTexture	IContentSystem.h	/^	GLuint GetErrorTexture();$/;"	p	class:IContentSystem	access:public	signature:()
+GetFOV	CCameraNode.cpp	/^float CCameraNode::GetFOV()$/;"	f	class:CCameraNode	signature:()
+GetFOV	CCameraNode.h	/^	float GetFOV();$/;"	p	class:CCameraNode	access:public	signature:()
+GetFarZ	CCameraNode.cpp	/^float CCameraNode::GetFarZ()$/;"	f	class:CCameraNode	signature:()
+GetFarZ	CCameraNode.h	/^	float GetFarZ();$/;"	p	class:CCameraNode	access:public	signature:()
+GetFrameBuffer	IRenderSystem.cpp	/^CFrameBuffer* IRenderSystem::GetFrameBuffer(unsigned int id)$/;"	f	class:IRenderSystem	signature:(unsigned int id)
+GetFrameBuffer	IRenderSystem.h	/^	CFrameBuffer* GetFrameBuffer(unsigned int id);$/;"	p	class:IRenderSystem	access:public	signature:(unsigned int id)
+GetGBuffer	IRenderSystem.cpp	/^GBuffer* IRenderSystem::GetGBuffer()$/;"	f	class:IRenderSystem	signature:()
+GetGBuffer	IRenderSystem.h	/^	GBuffer* GetGBuffer();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetGame	kopengi.cpp	/^IGame* GetGame()$/;"	f	signature:()
+GetGame	kopengi.h	/^IGame* GetGame(); \/\/ Returns pointer to the game object$/;"	p	signature:()
+GetID	CShader.cpp	/^GLuint CShader::GetID()$/;"	f	class:CShader	signature:()
+GetID	CShader.h	/^	GLuint GetID();$/;"	p	class:CShader	access:public	signature:()
+GetInputSystem	IGame.cpp	/^IInputSystem* IGame::GetInputSystem()$/;"	f	class:IGame	signature:()
+GetInputSystem	IGame.h	/^	IInputSystem* GetInputSystem();$/;"	p	class:IGame	access:public	signature:()
+GetKey	IInputSystem.cpp	/^int IInputSystem::GetKey(int key)$/;"	f	class:IInputSystem	signature:(int key)
+GetKey	IInputSystem.h	/^	int GetKey(int key);$/;"	p	class:IInputSystem	access:public	signature:(int key)
+GetLight	ISceneManager.cpp	/^CLight* ISceneManager::GetLight(unsigned int id)$/;"	f	class:ISceneManager	signature:(unsigned int id)
+GetLight	ISceneManager.h	/^	CLight* GetLight(unsigned int id);$/;"	p	class:ISceneManager	access:public	signature:(unsigned int id)
+GetLightCount	ISceneManager.cpp	/^unsigned int ISceneManager::GetLightCount()$/;"	f	class:ISceneManager	signature:()
+GetLightCount	ISceneManager.h	/^	unsigned int GetLightCount();$/;"	p	class:ISceneManager	access:public	signature:()
+GetLinearAtt	CLight.h	/^	virtual float GetLinearAtt() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+GetLinearAtt	CPointLight.cpp	/^float CPointLight::GetLinearAtt()$/;"	f	class:CPointLight	signature:()
+GetLinearAtt	CPointLight.h	/^	float GetLinearAtt();$/;"	p	class:CPointLight	access:public	signature:()
+GetLinearAtt	CSpotLight.cpp	/^float CSpotLight::GetLinearAtt()$/;"	f	class:CSpotLight	signature:()
+GetLinearAtt	CSpotLight.h	/^	float GetLinearAtt();$/;"	p	class:CSpotLight	access:public	signature:()
+GetMaterial	CMesh.cpp	/^CMaterial CMesh::GetMaterial()$/;"	f	class:CMesh	signature:()
+GetMaterial	CMesh.h	/^	CMaterial GetMaterial();$/;"	p	class:CMesh	access:public	signature:()
+GetMaterial	CMeshNode.cpp	/^CMaterial* CMeshNode::GetMaterial()$/;"	f	class:CMeshNode	signature:()
+GetMaterial	CMeshNode.h	/^	CMaterial* GetMaterial();$/;"	p	class:CMeshNode	access:public	signature:()
+GetMesh	CModel.cpp	/^CMesh* CModel::GetMesh(unsigned int index)$/;"	f	class:CModel	signature:(unsigned int index)
+GetMesh	CModel.h	/^	CMesh* GetMesh(unsigned int index);$/;"	p	class:CModel	access:public	signature:(unsigned int index)
+GetMeshCount	CModel.cpp	/^unsigned int CModel::GetMeshCount()$/;"	f	class:CModel	signature:()
+GetMeshCount	CModel.h	/^	unsigned int GetMeshCount();$/;"	p	class:CModel	access:public	signature:()
+GetModel	CMeshNode.cpp	/^CModel* CMeshNode::GetModel()$/;"	f	class:CMeshNode	signature:()
+GetModel	CMeshNode.h	/^	CModel* GetModel();$/;"	p	class:CMeshNode	access:public	signature:()
+GetModel	IContentSystem.cpp	/^CModel* IContentSystem::GetModel(std::string path)$/;"	f	class:IContentSystem	signature:(std::string path)
+GetModel	IContentSystem.h	/^	CModel* GetModel(std::string path);$/;"	p	class:IContentSystem	access:public	signature:(std::string path)
+GetMouseDX	IInputSystem.cpp	/^float IInputSystem::GetMouseDX()$/;"	f	class:IInputSystem	signature:()
+GetMouseDX	IInputSystem.h	/^	float GetMouseDX();$/;"	p	class:IInputSystem	access:public	signature:()
+GetMouseDY	IInputSystem.cpp	/^float IInputSystem::GetMouseDY()$/;"	f	class:IInputSystem	signature:()
+GetMouseDY	IInputSystem.h	/^	float GetMouseDY();$/;"	p	class:IInputSystem	access:public	signature:()
+GetMouseSpeed	IInputSystem.cpp	/^float IInputSystem::GetMouseSpeed()$/;"	f	class:IInputSystem	signature:()
+GetMouseSpeed	IInputSystem.h	/^	float GetMouseSpeed();$/;"	p	class:IInputSystem	access:public	signature:()
+GetMouseX	IInputSystem.cpp	/^int IInputSystem::GetMouseX()$/;"	f	class:IInputSystem	signature:()
+GetMouseX	IInputSystem.h	/^	int GetMouseX();$/;"	p	class:IInputSystem	access:public	signature:()
+GetMouseY	IInputSystem.cpp	/^int IInputSystem::GetMouseY()$/;"	f	class:IInputSystem	signature:()
+GetMouseY	IInputSystem.h	/^	int GetMouseY();$/;"	p	class:IInputSystem	access:public	signature:()
+GetNearZ	CCameraNode.cpp	/^float CCameraNode::GetNearZ()$/;"	f	class:CCameraNode	signature:()
+GetNearZ	CCameraNode.h	/^	float GetNearZ();$/;"	p	class:CCameraNode	access:public	signature:()
+GetNode	ISceneManager.cpp	/^ISceneNode* ISceneManager::GetNode(unsigned int id)$/;"	f	class:ISceneManager	signature:(unsigned int id)
+GetNode	ISceneManager.h	/^	ISceneNode* GetNode(unsigned int id);$/;"	p	class:ISceneManager	access:public	signature:(unsigned int id)
+GetNodeCount	ISceneManager.cpp	/^unsigned int ISceneManager::GetNodeCount()$/;"	f	class:ISceneManager	signature:()
+GetNodeCount	ISceneManager.h	/^	unsigned int GetNodeCount();$/;"	p	class:ISceneManager	access:public	signature:()
+GetParent	ISceneNode.cpp	/^ISceneNode* ISceneNode::GetParent()$/;"	f	class:ISceneNode	signature:()
+GetParent	ISceneNode.h	/^	virtual ISceneNode* GetParent();$/;"	p	class:ISceneNode	access:public	signature:()
+GetParentMatrix	ISceneNode.cpp	/^glm::mat4 ISceneNode::GetParentMatrix()$/;"	f	class:ISceneNode	signature:()
+GetParentMatrix	ISceneNode.h	/^	virtual glm::mat4 GetParentMatrix();$/;"	p	class:ISceneNode	access:public	signature:()
+GetPos	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetPos()$/;"	f	class:ISceneNode	signature:()
+GetPos	ISceneNode.h	/^	virtual glm::vec3 GetPos();$/;"	p	class:ISceneNode	access:public	signature:()
+GetPosAbsolute	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetPosAbsolute()$/;"	f	class:ISceneNode	signature:()
+GetPosAbsolute	ISceneNode.h	/^	virtual glm::vec3 GetPosAbsolute();$/;"	p	class:ISceneNode	access:public	signature:()
+GetPower	CLight.cpp	/^float CLight::GetPower()$/;"	f	class:CLight	signature:()
+GetPower	CLight.h	/^	float GetPower();$/;"	p	class:CLight	access:public	signature:()
+GetProjectionMatrix	IRenderSystem.cpp	/^glm::mat4 IRenderSystem::GetProjectionMatrix()$/;"	f	class:IRenderSystem	signature:()
+GetProjectionMatrix	IRenderSystem.h	/^	glm::mat4 GetProjectionMatrix();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetQuadraticAtt	CLight.h	/^	virtual float GetQuadraticAtt() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+GetQuadraticAtt	CPointLight.cpp	/^float CPointLight::GetQuadraticAtt()$/;"	f	class:CPointLight	signature:()
+GetQuadraticAtt	CPointLight.h	/^	float GetQuadraticAtt();$/;"	p	class:CPointLight	access:public	signature:()
+GetQuadraticAtt	CSpotLight.cpp	/^float CSpotLight::GetQuadraticAtt()$/;"	f	class:CSpotLight	signature:()
+GetQuadraticAtt	CSpotLight.h	/^	float GetQuadraticAtt();$/;"	p	class:CSpotLight	access:public	signature:()
+GetReadBuffer	IRenderSystem.cpp	/^CFrameBuffer* IRenderSystem::GetReadBuffer()$/;"	f	class:IRenderSystem	signature:()
+GetReadBuffer	IRenderSystem.h	/^	CFrameBuffer* GetReadBuffer();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetRenderSystem	IGame.cpp	/^IRenderSystem* IGame::GetRenderSystem()$/;"	f	class:IGame	signature:()
+GetRenderSystem	IGame.h	/^	IRenderSystem* GetRenderSystem();$/;"	p	class:IGame	access:public	signature:()
+GetRight	CCameraNode.cpp	/^glm::vec3 CCameraNode::GetRight()$/;"	f	class:CCameraNode	signature:()
+GetRight	CCameraNode.h	/^	glm::vec3 GetRight();$/;"	p	class:CCameraNode	access:public	signature:()
+GetScale	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetScale()$/;"	f	class:ISceneNode	signature:()
+GetScale	ISceneNode.h	/^	virtual glm::vec3 GetScale();$/;"	p	class:ISceneNode	access:public	signature:()
+GetSceneManager	IGame.cpp	/^ISceneManager* IGame::GetSceneManager()$/;"	f	class:IGame	signature:()
+GetSceneManager	IGame.h	/^	ISceneManager* GetSceneManager();$/;"	p	class:IGame	access:public	signature:()
+GetScreenQuad	IRenderSystem.cpp	/^GLuint IRenderSystem::GetScreenQuad()$/;"	f	class:IRenderSystem	signature:()
+GetScreenQuad	IRenderSystem.h	/^	GLuint GetScreenQuad();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetScreenUVs	IRenderSystem.cpp	/^GLuint IRenderSystem::GetScreenUVs()$/;"	f	class:IRenderSystem	signature:()
+GetScreenUVs	IRenderSystem.h	/^	GLuint GetScreenUVs();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetShader	CMeshNode.cpp	/^CShader* CMeshNode::GetShader()$/;"	f	class:CMeshNode	signature:()
+GetShader	CMeshNode.h	/^	CShader* GetShader();$/;"	p	class:CMeshNode	access:public	signature:()
+GetShader	IRenderSystem.cpp	/^CShader* IRenderSystem::GetShader(std::string name)$/;"	f	class:IRenderSystem	signature:(std::string name)
+GetShader	IRenderSystem.h	/^	CShader* GetShader(std::string path);$/;"	p	class:IRenderSystem	access:public	signature:(std::string path)
+GetSpecular	CLight.cpp	/^glm::vec3 CLight::GetSpecular()$/;"	f	class:CLight	signature:()
+GetSpecular	CLight.h	/^	glm::vec3 GetSpecular();$/;"	p	class:CLight	access:public	signature:()
+GetSpotCutoff	CLight.h	/^	virtual float GetSpotCutoff() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+GetSpotCutoff	CSpotLight.cpp	/^float CSpotLight::GetSpotCutoff()$/;"	f	class:CSpotLight	signature:()
+GetSpotCutoff	CSpotLight.h	/^	float GetSpotCutoff();$/;"	p	class:CSpotLight	access:public	signature:()
+GetSpotExponent	CLight.h	/^	virtual float GetSpotExponent() {return 0;};$/;"	f	class:CLight	access:public	signature:()
+GetSpotExponent	CSpotLight.cpp	/^float CSpotLight::GetSpotExponent()$/;"	f	class:CSpotLight	signature:()
+GetSpotExponent	CSpotLight.h	/^	float GetSpotExponent();$/;"	p	class:CSpotLight	access:public	signature:()
+GetTexture	IContentSystem.cpp	/^GLuint IContentSystem::GetTexture(std::string path)$/;"	f	class:IContentSystem	signature:(std::string path)
+GetTexture	IContentSystem.h	/^	GLuint GetTexture(std::string path);$/;"	p	class:IContentSystem	access:public	signature:(std::string path)
+GetTransform	ISceneNode.cpp	/^glm::mat4 ISceneNode::GetTransform()$/;"	f	class:ISceneNode	signature:()
+GetTransform	ISceneNode.h	/^	virtual glm::mat4 GetTransform();$/;"	p	class:ISceneNode	access:public	signature:()
+GetType	CLight.h	/^	virtual float GetType()$/;"	f	class:CLight	access:public	signature:()
+GetType	CLightDirectional.cpp	/^float CLightDirectional::GetType()$/;"	f	class:CLightDirectional	signature:()
+GetType	CLightDirectional.h	/^	float GetType();$/;"	p	class:CLightDirectional	access:public	signature:()
+GetType	CLightEnvironment.h	/^	virtual float GetType()$/;"	f	class:CLightEnvironment	access:public	signature:()
+GetType	CPointLight.cpp	/^float CPointLight::GetType()$/;"	f	class:CPointLight	signature:()
+GetType	CPointLight.h	/^	float GetType();$/;"	p	class:CPointLight	access:public	signature:()
+GetType	CSpotLight.cpp	/^float CSpotLight::GetType()$/;"	f	class:CSpotLight	signature:()
+GetType	CSpotLight.h	/^	float GetType();$/;"	p	class:CSpotLight	access:public	signature:()
+GetUp	CCameraNode.cpp	/^glm::vec3 CCameraNode::GetUp()$/;"	f	class:CCameraNode	signature:()
+GetUp	CCameraNode.h	/^	glm::vec3 GetUp();$/;"	p	class:CCameraNode	access:public	signature:()
+GetViewMatrix	IRenderSystem.cpp	/^glm::mat4 IRenderSystem::GetViewMatrix()$/;"	f	class:IRenderSystem	signature:()
+GetViewMatrix	IRenderSystem.h	/^	glm::mat4 GetViewMatrix();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetViewRotMatrix	IRenderSystem.cpp	/^glm::mat3 IRenderSystem::GetViewRotMatrix()$/;"	f	class:IRenderSystem	signature:()
+GetViewRotMatrix	IRenderSystem.h	/^	glm::mat3 GetViewRotMatrix();$/;"	p	class:IRenderSystem	access:public	signature:()
+GetViewSpaceAngles	ISceneNode.cpp	/^glm::vec4 ISceneNode::GetViewSpaceAngles()$/;"	f	class:ISceneNode	signature:()
+GetViewSpaceAngles	ISceneNode.h	/^	virtual glm::vec4 GetViewSpaceAngles();$/;"	p	class:ISceneNode	access:public	signature:()
+GetViewSpacePos	CLightDirectional.cpp	/^glm::vec4 CLightDirectional::GetViewSpacePos()$/;"	f	class:CLightDirectional	signature:()
+GetViewSpacePos	CLightDirectional.h	/^	virtual glm::vec4 GetViewSpacePos();$/;"	p	class:CLightDirectional	access:public	signature:()
+GetViewSpacePos	ISceneNode.cpp	/^glm::vec4 ISceneNode::GetViewSpacePos()$/;"	f	class:ISceneNode	signature:()
+GetViewSpacePos	ISceneNode.h	/^	virtual glm::vec4 GetViewSpacePos();$/;"	p	class:ISceneNode	access:public	signature:()
+GetWindowHeight	IGame.cpp	/^int IGame::GetWindowHeight()$/;"	f	class:IGame	signature:()
+GetWindowHeight	IGame.h	/^	int GetWindowHeight();$/;"	p	class:IGame	access:public	signature:()
+GetWindowWidth	IGame.cpp	/^int IGame::GetWindowWidth()$/;"	f	class:IGame	signature:()
+GetWindowWidth	IGame.h	/^	int GetWindowWidth();$/;"	p	class:IGame	access:public	signature:()
+GetWriteBuffer	IRenderSystem.cpp	/^CFrameBuffer* IRenderSystem::GetWriteBuffer()$/;"	f	class:IRenderSystem	signature:()
+GetWriteBuffer	IRenderSystem.h	/^	CFrameBuffer* GetWriteBuffer();$/;"	p	class:IRenderSystem	access:public	signature:()
+IContentSystem	IContentSystem.cpp	/^IContentSystem::IContentSystem()$/;"	f	class:IContentSystem	signature:()
+IContentSystem	IContentSystem.h	/^	IContentSystem();$/;"	p	class:IContentSystem	access:public	signature:()
+IContentSystem	IContentSystem.h	/^class IContentSystem$/;"	c
+IContentSystem::GetErrorTexture	IContentSystem.cpp	/^GLuint IContentSystem::GetErrorTexture()$/;"	f	class:IContentSystem	signature:()
+IContentSystem::GetErrorTexture	IContentSystem.h	/^	GLuint GetErrorTexture();$/;"	p	class:IContentSystem	access:public	signature:()
+IContentSystem::GetModel	IContentSystem.cpp	/^CModel* IContentSystem::GetModel(std::string path)$/;"	f	class:IContentSystem	signature:(std::string path)
+IContentSystem::GetModel	IContentSystem.h	/^	CModel* GetModel(std::string path);$/;"	p	class:IContentSystem	access:public	signature:(std::string path)
+IContentSystem::GetTexture	IContentSystem.cpp	/^GLuint IContentSystem::GetTexture(std::string path)$/;"	f	class:IContentSystem	signature:(std::string path)
+IContentSystem::GetTexture	IContentSystem.h	/^	GLuint GetTexture(std::string path);$/;"	p	class:IContentSystem	access:public	signature:(std::string path)
+IContentSystem::IContentSystem	IContentSystem.cpp	/^IContentSystem::IContentSystem()$/;"	f	class:IContentSystem	signature:()
+IContentSystem::IContentSystem	IContentSystem.h	/^	IContentSystem();$/;"	p	class:IContentSystem	access:public	signature:()
+IContentSystem::LoadModel	IContentSystem.cpp	/^CModel* IContentSystem::LoadModel(std::string filepath)$/;"	f	class:IContentSystem	signature:(std::string filepath)
+IContentSystem::LoadModel	IContentSystem.h	/^	CModel* LoadModel(std::string path);$/;"	p	class:IContentSystem	access:public	signature:(std::string path)
+IContentSystem::m_ErrorTexture	IContentSystem.h	/^	GLuint m_ErrorTexture;$/;"	m	class:IContentSystem	access:private
+IContentSystem::m_Importer	IContentSystem.h	/^	Assimp::Importer m_Importer;$/;"	m	class:IContentSystem	access:private
+IContentSystem::m_ModelCache	IContentSystem.h	/^	std::map<std::string, CModel*> m_ModelCache;$/;"	m	class:IContentSystem	access:private
+IContentSystem::m_TextureCache	IContentSystem.h	/^	std::map<std::string, GLuint> m_TextureCache;$/;"	m	class:IContentSystem	access:private
+IContentSystem::~IContentSystem	IContentSystem.cpp	/^IContentSystem::~IContentSystem()$/;"	f	class:IContentSystem	signature:()
+IContentSystem::~IContentSystem	IContentSystem.h	/^	~IContentSystem();$/;"	p	class:IContentSystem	access:public	signature:()
+IGame	IGame.cpp	/^IGame::IGame() {}$/;"	f	class:IGame	signature:()
+IGame	IGame.h	/^	IGame();$/;"	p	class:IGame	access:public	signature:()
+IGame	IGame.h	/^class IGame$/;"	c
+IGame::GetContentSystem	IGame.cpp	/^IContentSystem* IGame::GetContentSystem()$/;"	f	class:IGame	signature:()
+IGame::GetContentSystem	IGame.h	/^	IContentSystem* GetContentSystem();$/;"	p	class:IGame	access:public	signature:()
+IGame::GetInputSystem	IGame.cpp	/^IInputSystem* IGame::GetInputSystem()$/;"	f	class:IGame	signature:()
+IGame::GetInputSystem	IGame.h	/^	IInputSystem* GetInputSystem();$/;"	p	class:IGame	access:public	signature:()
+IGame::GetRenderSystem	IGame.cpp	/^IRenderSystem* IGame::GetRenderSystem()$/;"	f	class:IGame	signature:()
+IGame::GetRenderSystem	IGame.h	/^	IRenderSystem* GetRenderSystem();$/;"	p	class:IGame	access:public	signature:()
+IGame::GetSceneManager	IGame.cpp	/^ISceneManager* IGame::GetSceneManager()$/;"	f	class:IGame	signature:()
+IGame::GetSceneManager	IGame.h	/^	ISceneManager* GetSceneManager();$/;"	p	class:IGame	access:public	signature:()
+IGame::GetWindowHeight	IGame.cpp	/^int IGame::GetWindowHeight()$/;"	f	class:IGame	signature:()
+IGame::GetWindowHeight	IGame.h	/^	int GetWindowHeight();$/;"	p	class:IGame	access:public	signature:()
+IGame::GetWindowWidth	IGame.cpp	/^int IGame::GetWindowWidth()$/;"	f	class:IGame	signature:()
+IGame::GetWindowWidth	IGame.h	/^	int GetWindowWidth();$/;"	p	class:IGame	access:public	signature:()
+IGame::IGame	IGame.cpp	/^IGame::IGame() {}$/;"	f	class:IGame	signature:()
+IGame::IGame	IGame.h	/^	IGame();$/;"	p	class:IGame	access:public	signature:()
+IGame::Init	IGame.cpp	/^bool IGame::Init(int w, int h, std::string title)$/;"	f	class:IGame	signature:(int w, int h, std::string title)
+IGame::Init	IGame.h	/^	bool Init(int w, int h, std::string title);$/;"	p	class:IGame	access:public	signature:(int w, int h, std::string title)
+IGame::Running	IGame.cpp	/^bool IGame::Running()$/;"	f	class:IGame	signature:()
+IGame::Running	IGame.h	/^	bool Running();$/;"	p	class:IGame	access:public	signature:()
+IGame::SetContentSystem	IGame.cpp	/^void IGame::SetContentSystem(IContentSystem* cs)$/;"	f	class:IGame	signature:(IContentSystem* cs)
+IGame::SetContentSystem	IGame.h	/^	void SetContentSystem(IContentSystem* cs);$/;"	p	class:IGame	access:public	signature:(IContentSystem* cs)
+IGame::SetInputSystem	IGame.cpp	/^void IGame::SetInputSystem(IInputSystem* is)$/;"	f	class:IGame	signature:(IInputSystem* is)
+IGame::SetInputSystem	IGame.h	/^	void SetInputSystem(IInputSystem* is);$/;"	p	class:IGame	access:public	signature:(IInputSystem* is)
+IGame::SetRenderSystem	IGame.cpp	/^void IGame::SetRenderSystem(IRenderSystem* rs)$/;"	f	class:IGame	signature:(IRenderSystem* rs)
+IGame::SetRenderSystem	IGame.h	/^	void SetRenderSystem(IRenderSystem* rs);$/;"	p	class:IGame	access:public	signature:(IRenderSystem* rs)
+IGame::SetRun	IGame.cpp	/^void IGame::SetRun(bool b)$/;"	f	class:IGame	signature:(bool b)
+IGame::SetRun	IGame.h	/^	void SetRun(bool b);$/;"	p	class:IGame	access:public	signature:(bool b)
+IGame::SetSceneManager	IGame.cpp	/^void IGame::SetSceneManager(ISceneManager* sm)$/;"	f	class:IGame	signature:(ISceneManager* sm)
+IGame::SetSceneManager	IGame.h	/^	void SetSceneManager(ISceneManager* sm);$/;"	p	class:IGame	access:public	signature:(ISceneManager* sm)
+IGame::UpdateWindow	IGame.cpp	/^void IGame::UpdateWindow()$/;"	f	class:IGame	signature:()
+IGame::UpdateWindow	IGame.h	/^	void UpdateWindow();$/;"	p	class:IGame	access:public	signature:()
+IGame::m_ContentSystem	IGame.h	/^	IContentSystem* m_ContentSystem;$/;"	m	class:IGame	access:private
+IGame::m_InputSystem	IGame.h	/^	IInputSystem* m_InputSystem;$/;"	m	class:IGame	access:private
+IGame::m_RenderSystem	IGame.h	/^	IRenderSystem* m_RenderSystem;$/;"	m	class:IGame	access:private
+IGame::m_SceneManager	IGame.h	/^	ISceneManager* m_SceneManager;$/;"	m	class:IGame	access:private
+IGame::m_WindowHeight	IGame.h	/^	int m_WindowHeight;$/;"	m	class:IGame	access:private
+IGame::m_WindowWidth	IGame.h	/^	int m_WindowWidth;$/;"	m	class:IGame	access:private
+IGame::m_bRun	IGame.h	/^	bool m_bRun;$/;"	m	class:IGame	access:private
+IGame::~IGame	IGame.cpp	/^IGame::~IGame()$/;"	f	class:IGame	signature:()
+IGame::~IGame	IGame.h	/^	~IGame();$/;"	p	class:IGame	access:public	signature:()
+IInputSystem	IInputSystem.cpp	/^IInputSystem::IInputSystem()$/;"	f	class:IInputSystem	signature:()
+IInputSystem	IInputSystem.h	/^	IInputSystem();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem	IInputSystem.h	/^class IInputSystem$/;"	c
+IInputSystem::GetKey	IInputSystem.cpp	/^int IInputSystem::GetKey(int key)$/;"	f	class:IInputSystem	signature:(int key)
+IInputSystem::GetKey	IInputSystem.h	/^	int GetKey(int key);$/;"	p	class:IInputSystem	access:public	signature:(int key)
+IInputSystem::GetMouseDX	IInputSystem.cpp	/^float IInputSystem::GetMouseDX()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::GetMouseDX	IInputSystem.h	/^	float GetMouseDX();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::GetMouseDY	IInputSystem.cpp	/^float IInputSystem::GetMouseDY()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::GetMouseDY	IInputSystem.h	/^	float GetMouseDY();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::GetMouseSpeed	IInputSystem.cpp	/^float IInputSystem::GetMouseSpeed()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::GetMouseSpeed	IInputSystem.h	/^	float GetMouseSpeed();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::GetMouseX	IInputSystem.cpp	/^int IInputSystem::GetMouseX()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::GetMouseX	IInputSystem.h	/^	int GetMouseX();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::GetMouseY	IInputSystem.cpp	/^int IInputSystem::GetMouseY()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::GetMouseY	IInputSystem.h	/^	int GetMouseY();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::IInputSystem	IInputSystem.cpp	/^IInputSystem::IInputSystem()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::IInputSystem	IInputSystem.h	/^	IInputSystem();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::Poll	IInputSystem.cpp	/^void IInputSystem::Poll()$/;"	f	class:IInputSystem	signature:()
+IInputSystem::Poll	IInputSystem.h	/^	void Poll();$/;"	p	class:IInputSystem	access:public	signature:()
+IInputSystem::SetMouseSpeed	IInputSystem.cpp	/^void IInputSystem::SetMouseSpeed(float speed)$/;"	f	class:IInputSystem	signature:(float speed)
+IInputSystem::SetMouseSpeed	IInputSystem.h	/^	void SetMouseSpeed(float speed);$/;"	p	class:IInputSystem	access:public	signature:(float speed)
+IInputSystem::m_MouseDX	IInputSystem.h	/^	float m_MouseDX;$/;"	m	class:IInputSystem	access:private
+IInputSystem::m_MouseDY	IInputSystem.h	/^	float m_MouseDY;$/;"	m	class:IInputSystem	access:private
+IInputSystem::m_MouseSpeed	IInputSystem.h	/^	float m_MouseSpeed;$/;"	m	class:IInputSystem	access:private
+IInputSystem::m_MouseX	IInputSystem.h	/^	int m_MouseX;$/;"	m	class:IInputSystem	access:private
+IInputSystem::m_MouseY	IInputSystem.h	/^	int m_MouseY;$/;"	m	class:IInputSystem	access:private
+IInputSystem::~IInputSystem	IInputSystem.cpp	/^IInputSystem::~IInputSystem() {}$/;"	f	class:IInputSystem	signature:()
+IInputSystem::~IInputSystem	IInputSystem.h	/^	~IInputSystem();$/;"	p	class:IInputSystem	access:public	signature:()
+IRenderSystem	IRenderSystem.cpp	/^IRenderSystem::IRenderSystem()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem	IRenderSystem.h	/^	IRenderSystem();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem	IRenderSystem.h	/^class IRenderSystem$/;"	c
+IRenderSystem::Draw	IRenderSystem.cpp	/^void IRenderSystem::Draw()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::Draw	IRenderSystem.h	/^	void Draw();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetAmbientLight	IRenderSystem.cpp	/^glm::vec3 IRenderSystem::GetAmbientLight()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetAmbientLight	IRenderSystem.h	/^	glm::vec3 GetAmbientLight();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetCamera	IRenderSystem.cpp	/^CCameraNode* IRenderSystem::GetCamera()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetCamera	IRenderSystem.h	/^	CCameraNode* GetCamera();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetCurLight	IRenderSystem.cpp	/^CLight* IRenderSystem::GetCurLight()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetCurLight	IRenderSystem.h	/^	CLight* GetCurLight();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetCurMaterial	IRenderSystem.cpp	/^CMaterial* IRenderSystem::GetCurMaterial()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetCurMaterial	IRenderSystem.h	/^	CMaterial* GetCurMaterial();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetCurMesh	IRenderSystem.cpp	/^CMesh* IRenderSystem::GetCurMesh()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetCurMesh	IRenderSystem.h	/^	CMesh* GetCurMesh();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetCurShader	IRenderSystem.cpp	/^CShader* IRenderSystem::GetCurShader()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetCurShader	IRenderSystem.h	/^	CShader* GetCurShader();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetFrameBuffer	IRenderSystem.cpp	/^CFrameBuffer* IRenderSystem::GetFrameBuffer(unsigned int id)$/;"	f	class:IRenderSystem	signature:(unsigned int id)
+IRenderSystem::GetFrameBuffer	IRenderSystem.h	/^	CFrameBuffer* GetFrameBuffer(unsigned int id);$/;"	p	class:IRenderSystem	access:public	signature:(unsigned int id)
+IRenderSystem::GetGBuffer	IRenderSystem.cpp	/^GBuffer* IRenderSystem::GetGBuffer()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetGBuffer	IRenderSystem.h	/^	GBuffer* GetGBuffer();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetProjectionMatrix	IRenderSystem.cpp	/^glm::mat4 IRenderSystem::GetProjectionMatrix()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetProjectionMatrix	IRenderSystem.h	/^	glm::mat4 GetProjectionMatrix();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetReadBuffer	IRenderSystem.cpp	/^CFrameBuffer* IRenderSystem::GetReadBuffer()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetReadBuffer	IRenderSystem.h	/^	CFrameBuffer* GetReadBuffer();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetScreenQuad	IRenderSystem.cpp	/^GLuint IRenderSystem::GetScreenQuad()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetScreenQuad	IRenderSystem.h	/^	GLuint GetScreenQuad();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetScreenUVs	IRenderSystem.cpp	/^GLuint IRenderSystem::GetScreenUVs()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetScreenUVs	IRenderSystem.h	/^	GLuint GetScreenUVs();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetShader	IRenderSystem.cpp	/^CShader* IRenderSystem::GetShader(std::string name)$/;"	f	class:IRenderSystem	signature:(std::string name)
+IRenderSystem::GetShader	IRenderSystem.h	/^	CShader* GetShader(std::string path);$/;"	p	class:IRenderSystem	access:public	signature:(std::string path)
+IRenderSystem::GetViewMatrix	IRenderSystem.cpp	/^glm::mat4 IRenderSystem::GetViewMatrix()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetViewMatrix	IRenderSystem.h	/^	glm::mat4 GetViewMatrix();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetViewRotMatrix	IRenderSystem.cpp	/^glm::mat3 IRenderSystem::GetViewRotMatrix()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetViewRotMatrix	IRenderSystem.h	/^	glm::mat3 GetViewRotMatrix();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::GetWriteBuffer	IRenderSystem.cpp	/^CFrameBuffer* IRenderSystem::GetWriteBuffer()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::GetWriteBuffer	IRenderSystem.h	/^	CFrameBuffer* GetWriteBuffer();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::IRenderSystem	IRenderSystem.cpp	/^IRenderSystem::IRenderSystem()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::IRenderSystem	IRenderSystem.h	/^	IRenderSystem();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::LoadShaders	IRenderSystem.cpp	/^void IRenderSystem::LoadShaders()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::LoadShaders	IRenderSystem.h	/^	void LoadShaders();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::RenderPostEffects	IRenderSystem.cpp	/^void IRenderSystem::RenderPostEffects()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::RenderPostEffects	IRenderSystem.h	/^	void RenderPostEffects();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::RenderSkybox	IRenderSystem.cpp	/^void IRenderSystem::RenderSkybox()$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::RenderSkybox	IRenderSystem.h	/^	void RenderSkybox();$/;"	p	class:IRenderSystem	access:public	signature:()
+IRenderSystem::SetAmbientLight	IRenderSystem.cpp	/^void IRenderSystem::SetAmbientLight(glm::vec3 color)$/;"	f	class:IRenderSystem	signature:(glm::vec3 color)
+IRenderSystem::SetAmbientLight	IRenderSystem.h	/^	void SetAmbientLight(glm::vec3 color);$/;"	p	class:IRenderSystem	access:public	signature:(glm::vec3 color)
+IRenderSystem::SetCamera	IRenderSystem.cpp	/^void IRenderSystem::SetCamera(CCameraNode* cam)$/;"	f	class:IRenderSystem	signature:(CCameraNode* cam)
+IRenderSystem::SetCamera	IRenderSystem.h	/^	void SetCamera(CCameraNode* cam);$/;"	p	class:IRenderSystem	access:public	signature:(CCameraNode* cam)
+IRenderSystem::SetCurLight	IRenderSystem.cpp	/^void IRenderSystem::SetCurLight(CLight* light)$/;"	f	class:IRenderSystem	signature:(CLight* light)
+IRenderSystem::SetCurLight	IRenderSystem.h	/^	void SetCurLight(CLight* light);$/;"	p	class:IRenderSystem	access:public	signature:(CLight* light)
+IRenderSystem::SetCurMaterial	IRenderSystem.cpp	/^void IRenderSystem::SetCurMaterial(CMaterial* mat)$/;"	f	class:IRenderSystem	signature:(CMaterial* mat)
+IRenderSystem::SetCurMaterial	IRenderSystem.h	/^	void SetCurMaterial(CMaterial* mat);$/;"	p	class:IRenderSystem	access:public	signature:(CMaterial* mat)
+IRenderSystem::SetCurMesh	IRenderSystem.cpp	/^void IRenderSystem::SetCurMesh(CMesh* mesh)$/;"	f	class:IRenderSystem	signature:(CMesh* mesh)
+IRenderSystem::SetCurMesh	IRenderSystem.h	/^	void SetCurMesh(CMesh* mesh);$/;"	p	class:IRenderSystem	access:public	signature:(CMesh* mesh)
+IRenderSystem::SetReadBuffer	IRenderSystem.cpp	/^void IRenderSystem::SetReadBuffer(CFrameBuffer* buffer)$/;"	f	class:IRenderSystem	signature:(CFrameBuffer* buffer)
+IRenderSystem::SetReadBuffer	IRenderSystem.h	/^	void SetReadBuffer(CFrameBuffer* buffer);$/;"	p	class:IRenderSystem	access:public	signature:(CFrameBuffer* buffer)
+IRenderSystem::SetShader	IRenderSystem.cpp	/^void IRenderSystem::SetShader(CShader* shader)$/;"	f	class:IRenderSystem	signature:(CShader* shader)
+IRenderSystem::SetShader	IRenderSystem.h	/^	void SetShader(CShader* shader);$/;"	p	class:IRenderSystem	access:public	signature:(CShader* shader)
+IRenderSystem::SetWriteBuffer	IRenderSystem.cpp	/^void IRenderSystem::SetWriteBuffer(CFrameBuffer* buffer)$/;"	f	class:IRenderSystem	signature:(CFrameBuffer* buffer)
+IRenderSystem::SetWriteBuffer	IRenderSystem.h	/^	void SetWriteBuffer(CFrameBuffer* buffer);$/;"	p	class:IRenderSystem	access:public	signature:(CFrameBuffer* buffer)
+IRenderSystem::m_Camera	IRenderSystem.h	/^	CCameraNode* m_Camera;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_CurLight	IRenderSystem.h	/^	CLight* m_CurLight;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_CurMaterial	IRenderSystem.h	/^	CMaterial* m_CurMaterial;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_CurMesh	IRenderSystem.h	/^	CMesh* m_CurMesh;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_CurShader	IRenderSystem.h	/^	CShader* m_CurShader;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_FBO	IRenderSystem.h	/^	CFrameBuffer m_FBO[2];$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_GBuffer	IRenderSystem.h	/^	GBuffer m_GBuffer;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_LightEnv	IRenderSystem.h	/^	CLightEnvironment m_LightEnv;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_PPChain	IRenderSystem.h	/^	CPostProcessChain m_PPChain;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_ProjectionMatrix	IRenderSystem.h	/^	glm::mat4 m_ProjectionMatrix;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_ReadBuffer	IRenderSystem.h	/^	CFrameBuffer* m_ReadBuffer;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_ScreenQuad	IRenderSystem.h	/^	GLuint m_ScreenQuad;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_ScreenUVs	IRenderSystem.h	/^	GLuint m_ScreenUVs;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_Shaders	IRenderSystem.h	/^	std::map<std::string, CShader*> m_Shaders;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_SkyboxVerts	IRenderSystem.h	/^	GLuint m_SkyboxVerts;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_ViewMatrix	IRenderSystem.h	/^	glm::mat4 m_ViewMatrix;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_ViewRotMatrix	IRenderSystem.h	/^	glm::mat3 m_ViewRotMatrix;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::m_WriteBuffer	IRenderSystem.h	/^	CFrameBuffer* m_WriteBuffer;$/;"	m	class:IRenderSystem	access:private
+IRenderSystem::~IRenderSystem	IRenderSystem.cpp	/^IRenderSystem::~IRenderSystem() {}$/;"	f	class:IRenderSystem	signature:()
+IRenderSystem::~IRenderSystem	IRenderSystem.h	/^	~IRenderSystem();$/;"	p	class:IRenderSystem	access:public	signature:()
+ISceneManager	ISceneManager.cpp	/^ISceneManager::ISceneManager() {}$/;"	f	class:ISceneManager	signature:()
+ISceneManager	ISceneManager.h	/^	ISceneManager();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneManager	ISceneManager.h	/^class ISceneManager$/;"	c
+ISceneManager::AddLight	ISceneManager.cpp	/^void ISceneManager::AddLight(CLight* light)$/;"	f	class:ISceneManager	signature:(CLight* light)
+ISceneManager::AddLight	ISceneManager.h	/^	void AddLight(CLight* light);$/;"	p	class:ISceneManager	access:public	signature:(CLight* light)
+ISceneManager::AddNode	ISceneManager.cpp	/^void ISceneManager::AddNode(ISceneNode* node)$/;"	f	class:ISceneManager	signature:(ISceneNode* node)
+ISceneManager::AddNode	ISceneManager.h	/^	void AddNode(ISceneNode* node);$/;"	p	class:ISceneManager	access:public	signature:(ISceneNode* node)
+ISceneManager::Draw	ISceneManager.cpp	/^void ISceneManager::Draw(bool useShader)$/;"	f	class:ISceneManager	signature:(bool useShader)
+ISceneManager::Draw	ISceneManager.h	/^	void Draw(bool useShader = true);$/;"	p	class:ISceneManager	access:public	signature:(bool useShader = true)
+ISceneManager::Empty	ISceneManager.cpp	/^void ISceneManager::Empty()$/;"	f	class:ISceneManager	signature:()
+ISceneManager::Empty	ISceneManager.h	/^	void Empty();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneManager::GetLight	ISceneManager.cpp	/^CLight* ISceneManager::GetLight(unsigned int id)$/;"	f	class:ISceneManager	signature:(unsigned int id)
+ISceneManager::GetLight	ISceneManager.h	/^	CLight* GetLight(unsigned int id);$/;"	p	class:ISceneManager	access:public	signature:(unsigned int id)
+ISceneManager::GetLightCount	ISceneManager.cpp	/^unsigned int ISceneManager::GetLightCount()$/;"	f	class:ISceneManager	signature:()
+ISceneManager::GetLightCount	ISceneManager.h	/^	unsigned int GetLightCount();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneManager::GetNode	ISceneManager.cpp	/^ISceneNode* ISceneManager::GetNode(unsigned int id)$/;"	f	class:ISceneManager	signature:(unsigned int id)
+ISceneManager::GetNode	ISceneManager.h	/^	ISceneNode* GetNode(unsigned int id);$/;"	p	class:ISceneManager	access:public	signature:(unsigned int id)
+ISceneManager::GetNodeCount	ISceneManager.cpp	/^unsigned int ISceneManager::GetNodeCount()$/;"	f	class:ISceneManager	signature:()
+ISceneManager::GetNodeCount	ISceneManager.h	/^	unsigned int GetNodeCount();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneManager::ISceneManager	ISceneManager.cpp	/^ISceneManager::ISceneManager() {}$/;"	f	class:ISceneManager	signature:()
+ISceneManager::ISceneManager	ISceneManager.h	/^	ISceneManager();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneManager::Tick	ISceneManager.cpp	/^void ISceneManager::Tick()$/;"	f	class:ISceneManager	signature:()
+ISceneManager::Tick	ISceneManager.h	/^	void Tick();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneManager::m_LightList	ISceneManager.h	/^	std::vector<CLight*> m_LightList;$/;"	m	class:ISceneManager	access:private
+ISceneManager::m_NodeList	ISceneManager.h	/^	std::vector<ISceneNode*> m_NodeList;$/;"	m	class:ISceneManager	access:private
+ISceneManager::~ISceneManager	ISceneManager.cpp	/^ISceneManager::~ISceneManager() {}$/;"	f	class:ISceneManager	signature:()
+ISceneManager::~ISceneManager	ISceneManager.h	/^	~ISceneManager();$/;"	p	class:ISceneManager	access:public	signature:()
+ISceneNode	ISceneNode.cpp	/^ISceneNode::ISceneNode(bool addToSceneGraph)$/;"	f	class:ISceneNode	signature:(bool addToSceneGraph)
+ISceneNode	ISceneNode.h	/^	ISceneNode(bool addToSceneGraph = true);$/;"	p	class:ISceneNode	access:public	signature:(bool addToSceneGraph = true)
+ISceneNode	ISceneNode.h	/^class ISceneNode$/;"	c
+ISceneNode::AddChild	ISceneNode.cpp	/^void ISceneNode::AddChild(ISceneNode* node)$/;"	f	class:ISceneNode	signature:(ISceneNode* node)
+ISceneNode::AddChild	ISceneNode.h	/^	virtual void AddChild(ISceneNode* node);$/;"	p	class:ISceneNode	access:public	signature:(ISceneNode* node)
+ISceneNode::Draw	ISceneNode.cpp	/^void ISceneNode::Draw(bool useShader) {}$/;"	f	class:ISceneNode	signature:(bool useShader)
+ISceneNode::Draw	ISceneNode.h	/^	virtual void Draw(bool useShader = true);$/;"	p	class:ISceneNode	access:public	signature:(bool useShader = true)
+ISceneNode::GetAngles	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetAngles()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetAngles	ISceneNode.h	/^	virtual glm::vec3 GetAngles();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetAnglesAbsolute	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetAnglesAbsolute()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetAnglesAbsolute	ISceneNode.h	/^	virtual glm::vec3 GetAnglesAbsolute();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetParent	ISceneNode.cpp	/^ISceneNode* ISceneNode::GetParent()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetParent	ISceneNode.h	/^	virtual ISceneNode* GetParent();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetParentMatrix	ISceneNode.cpp	/^glm::mat4 ISceneNode::GetParentMatrix()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetParentMatrix	ISceneNode.h	/^	virtual glm::mat4 GetParentMatrix();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetPos	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetPos()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetPos	ISceneNode.h	/^	virtual glm::vec3 GetPos();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetPosAbsolute	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetPosAbsolute()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetPosAbsolute	ISceneNode.h	/^	virtual glm::vec3 GetPosAbsolute();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetScale	ISceneNode.cpp	/^glm::vec3 ISceneNode::GetScale()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetScale	ISceneNode.h	/^	virtual glm::vec3 GetScale();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetTransform	ISceneNode.cpp	/^glm::mat4 ISceneNode::GetTransform()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetTransform	ISceneNode.h	/^	virtual glm::mat4 GetTransform();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetViewSpaceAngles	ISceneNode.cpp	/^glm::vec4 ISceneNode::GetViewSpaceAngles()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetViewSpaceAngles	ISceneNode.h	/^	virtual glm::vec4 GetViewSpaceAngles();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::GetViewSpacePos	ISceneNode.cpp	/^glm::vec4 ISceneNode::GetViewSpacePos()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::GetViewSpacePos	ISceneNode.h	/^	virtual glm::vec4 GetViewSpacePos();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::ISceneNode	ISceneNode.cpp	/^ISceneNode::ISceneNode(bool addToSceneGraph)$/;"	f	class:ISceneNode	signature:(bool addToSceneGraph)
+ISceneNode::ISceneNode	ISceneNode.h	/^	ISceneNode(bool addToSceneGraph = true);$/;"	p	class:ISceneNode	access:public	signature:(bool addToSceneGraph = true)
+ISceneNode::RemoveChild	ISceneNode.cpp	/^void ISceneNode::RemoveChild(ISceneNode* node)$/;"	f	class:ISceneNode	signature:(ISceneNode* node)
+ISceneNode::RemoveChild	ISceneNode.h	/^	virtual void RemoveChild(ISceneNode* node);$/;"	p	class:ISceneNode	access:public	signature:(ISceneNode* node)
+ISceneNode::SetAngles	ISceneNode.cpp	/^void ISceneNode::SetAngles(glm::vec3 ang)$/;"	f	class:ISceneNode	signature:(glm::vec3 ang)
+ISceneNode::SetAngles	ISceneNode.h	/^	virtual void SetAngles(glm::vec3 ang);$/;"	p	class:ISceneNode	access:public	signature:(glm::vec3 ang)
+ISceneNode::SetParent	ISceneNode.cpp	/^void ISceneNode::SetParent(ISceneNode* node)$/;"	f	class:ISceneNode	signature:(ISceneNode* node)
+ISceneNode::SetParent	ISceneNode.h	/^	virtual void SetParent(ISceneNode* node);$/;"	p	class:ISceneNode	access:public	signature:(ISceneNode* node)
+ISceneNode::SetPos	ISceneNode.cpp	/^void ISceneNode::SetPos(glm::vec3 pos)$/;"	f	class:ISceneNode	signature:(glm::vec3 pos)
+ISceneNode::SetPos	ISceneNode.h	/^	virtual void SetPos(glm::vec3 pos);$/;"	p	class:ISceneNode	access:public	signature:(glm::vec3 pos)
+ISceneNode::SetScale	ISceneNode.cpp	/^void ISceneNode::SetScale(glm::vec3 scale)$/;"	f	class:ISceneNode	signature:(glm::vec3 scale)
+ISceneNode::SetScale	ISceneNode.h	/^	virtual void SetScale(glm::vec3 scale);$/;"	p	class:ISceneNode	access:public	signature:(glm::vec3 scale)
+ISceneNode::SetShouldDraw	ISceneNode.cpp	/^void ISceneNode::SetShouldDraw(bool b)$/;"	f	class:ISceneNode	signature:(bool b)
+ISceneNode::SetShouldDraw	ISceneNode.h	/^	virtual void SetShouldDraw(bool b);$/;"	p	class:ISceneNode	access:public	signature:(bool b)
+ISceneNode::ShouldDraw	ISceneNode.cpp	/^bool ISceneNode::ShouldDraw()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::ShouldDraw	ISceneNode.h	/^	virtual bool ShouldDraw();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::Tick	ISceneNode.cpp	/^void ISceneNode::Tick() {}$/;"	f	class:ISceneNode	signature:()
+ISceneNode::Tick	ISceneNode.h	/^	virtual void Tick();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::UpdateMatrix	ISceneNode.cpp	/^void ISceneNode::UpdateMatrix()$/;"	f	class:ISceneNode	signature:()
+ISceneNode::UpdateMatrix	ISceneNode.h	/^	virtual void UpdateMatrix();$/;"	p	class:ISceneNode	access:public	signature:()
+ISceneNode::m_Angles	ISceneNode.h	/^	glm::vec3 m_Angles;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_Children	ISceneNode.h	/^	std::vector<ISceneNode*> m_Children;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_ModelMatrix	ISceneNode.h	/^	glm::mat4 m_ModelMatrix;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_NormalMatrix	ISceneNode.h	/^	glm::mat4 m_NormalMatrix;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_Parent	ISceneNode.h	/^	ISceneNode* m_Parent;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_ParentMatrix	ISceneNode.h	/^	glm::mat4 m_ParentMatrix;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_Pos	ISceneNode.h	/^	glm::vec3 m_Pos;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_Scale	ISceneNode.h	/^	glm::vec3 m_Scale;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::m_ShouldDraw	ISceneNode.h	/^	bool m_ShouldDraw;$/;"	m	class:ISceneNode	access:protected
+ISceneNode::~ISceneNode	ISceneNode.cpp	/^ISceneNode::~ISceneNode() {}$/;"	f	class:ISceneNode	signature:()
+ISceneNode::~ISceneNode	ISceneNode.h	/^	~ISceneNode();$/;"	p	class:ISceneNode	access:public	signature:()
+Init	CFrameBuffer.cpp	/^bool CFrameBuffer::Init(unsigned int w, unsigned int h, int numTextures)$/;"	f	class:CFrameBuffer	signature:(unsigned int w, unsigned int h, int numTextures)
+Init	CFrameBuffer.h	/^	bool Init(unsigned int w, unsigned int h, int numTextures);$/;"	p	class:CFrameBuffer	access:public	signature:(unsigned int w, unsigned int h, int numTextures)
+Init	GBuffer.cpp	/^bool GBuffer::Init(unsigned int w, unsigned int h)$/;"	f	class:GBuffer	signature:(unsigned int w, unsigned int h)
+Init	GBuffer.h	/^	bool Init(unsigned int w, unsigned int h);$/;"	p	class:GBuffer	access:public	signature:(unsigned int w, unsigned int h)
+Init	IGame.cpp	/^bool IGame::Init(int w, int h, std::string title)$/;"	f	class:IGame	signature:(int w, int h, std::string title)
+Init	IGame.h	/^	bool Init(int w, int h, std::string title);$/;"	p	class:IGame	access:public	signature:(int w, int h, std::string title)
+LIGHT_TYPE	CLight.h	/^	enum LIGHT_TYPE$/;"	g	class:CLight	access:public
+LIGHT_TYPE_DIRECTIONAL	CLight.h	/^		LIGHT_TYPE_DIRECTIONAL,$/;"	e	enum:CLight::LIGHT_TYPE
+LIGHT_TYPE_ENVIRONMENTAL	CLight.h	/^		LIGHT_TYPE_ENVIRONMENTAL,$/;"	e	enum:CLight::LIGHT_TYPE
+LIGHT_TYPE_POINT	CLight.h	/^		LIGHT_TYPE_POINT,$/;"	e	enum:CLight::LIGHT_TYPE
+LIGHT_TYPE_SPOT	CLight.h	/^		LIGHT_TYPE_SPOT$/;"	e	enum:CLight::LIGHT_TYPE
+LoadModel	IContentSystem.cpp	/^CModel* IContentSystem::LoadModel(std::string filepath)$/;"	f	class:IContentSystem	signature:(std::string filepath)
+LoadModel	IContentSystem.h	/^	CModel* LoadModel(std::string path);$/;"	p	class:IContentSystem	access:public	signature:(std::string path)
+LoadShaders	IRenderSystem.cpp	/^void IRenderSystem::LoadShaders()$/;"	f	class:IRenderSystem	signature:()
+LoadShaders	IRenderSystem.h	/^	void LoadShaders();$/;"	p	class:IRenderSystem	access:public	signature:()
+Poll	IInputSystem.cpp	/^void IInputSystem::Poll()$/;"	f	class:IInputSystem	signature:()
+Poll	IInputSystem.h	/^	void Poll();$/;"	p	class:IInputSystem	access:public	signature:()
+PreLink	CShader_Deferred.cpp	/^void CShader_Deferred::PreLink(GLuint ID) {}$/;"	f	class:CShader_Deferred	signature:(GLuint ID)
+PreLink	CShader_Deferred.h	/^	virtual void PreLink(GLuint ID);$/;"	p	class:CShader_Deferred	access:public	signature:(GLuint ID)
+PreLink	CShader_GBuffer.cpp	/^void CShader_GBuffer::PreLink(GLuint ID)$/;"	f	class:CShader_GBuffer	signature:(GLuint ID)
+PreLink	CShader_GBuffer.h	/^	virtual void PreLink(GLuint ID);$/;"	p	class:CShader_GBuffer	access:public	signature:(GLuint ID)
+PreLink	CShader_SSAO.cpp	/^void CShader_SSAO::PreLink(GLuint ID) {}$/;"	f	class:CShader_SSAO	signature:(GLuint ID)
+PreLink	CShader_SSAO.h	/^	virtual void PreLink(GLuint ID);$/;"	p	class:CShader_SSAO	access:public	signature:(GLuint ID)
+RemoveChild	ISceneNode.cpp	/^void ISceneNode::RemoveChild(ISceneNode* node)$/;"	f	class:ISceneNode	signature:(ISceneNode* node)
+RemoveChild	ISceneNode.h	/^	virtual void RemoveChild(ISceneNode* node);$/;"	p	class:ISceneNode	access:public	signature:(ISceneNode* node)
+Render	CPostProcessChain.cpp	/^void CPostProcessChain::Render()$/;"	f	class:CPostProcessChain	signature:()
+Render	CPostProcessChain.h	/^	void Render();$/;"	p	class:CPostProcessChain	access:public	signature:()
+Render	CShader.cpp	/^void CShader::Render() {}$/;"	f	class:CShader	signature:()
+Render	CShader.h	/^	virtual void Render();$/;"	p	class:CShader	access:public	signature:()
+Render	CShader_Deferred.cpp	/^void CShader_Deferred::Render()$/;"	f	class:CShader_Deferred	signature:()
+Render	CShader_Deferred.h	/^	virtual void Render();$/;"	p	class:CShader_Deferred	access:public	signature:()
+Render	CShader_GBuffer.cpp	/^void CShader_GBuffer::Render()$/;"	f	class:CShader_GBuffer	signature:()
+Render	CShader_GBuffer.h	/^	virtual void Render();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+Render	CShader_SSAO.cpp	/^void CShader_SSAO::Render()$/;"	f	class:CShader_SSAO	signature:()
+Render	CShader_SSAO.h	/^	virtual void Render();$/;"	p	class:CShader_SSAO	access:public	signature:()
+RenderPostEffects	IRenderSystem.cpp	/^void IRenderSystem::RenderPostEffects()$/;"	f	class:IRenderSystem	signature:()
+RenderPostEffects	IRenderSystem.h	/^	void RenderPostEffects();$/;"	p	class:IRenderSystem	access:public	signature:()
+RenderSkybox	IRenderSystem.cpp	/^void IRenderSystem::RenderSkybox()$/;"	f	class:IRenderSystem	signature:()
+RenderSkybox	IRenderSystem.h	/^	void RenderSkybox();$/;"	p	class:IRenderSystem	access:public	signature:()
+Running	IGame.cpp	/^bool IGame::Running()$/;"	f	class:IGame	signature:()
+Running	IGame.h	/^	bool Running();$/;"	p	class:IGame	access:public	signature:()
+SetAmbient	CLight.cpp	/^void CLight::SetAmbient(glm::vec3 color)$/;"	f	class:CLight	signature:(glm::vec3 color)
+SetAmbient	CLight.h	/^	void SetAmbient(glm::vec3 color);$/;"	p	class:CLight	access:public	signature:(glm::vec3 color)
+SetAmbientLight	IRenderSystem.cpp	/^void IRenderSystem::SetAmbientLight(glm::vec3 color)$/;"	f	class:IRenderSystem	signature:(glm::vec3 color)
+SetAmbientLight	IRenderSystem.h	/^	void SetAmbientLight(glm::vec3 color);$/;"	p	class:IRenderSystem	access:public	signature:(glm::vec3 color)
+SetAngles	ISceneNode.cpp	/^void ISceneNode::SetAngles(glm::vec3 ang)$/;"	f	class:ISceneNode	signature:(glm::vec3 ang)
+SetAngles	ISceneNode.h	/^	virtual void SetAngles(glm::vec3 ang);$/;"	p	class:ISceneNode	access:public	signature:(glm::vec3 ang)
+SetAttenuation	CPointLight.cpp	/^void CPointLight::SetAttenuation(float c, float l, float q)$/;"	f	class:CPointLight	signature:(float c, float l, float q)
+SetAttenuation	CPointLight.h	/^	void SetAttenuation(float c, float l, float q);$/;"	p	class:CPointLight	access:public	signature:(float c, float l, float q)
+SetAttenuation	CSpotLight.cpp	/^void CSpotLight::SetAttenuation(float c, float l, float q)$/;"	f	class:CSpotLight	signature:(float c, float l, float q)
+SetAttenuation	CSpotLight.h	/^	void SetAttenuation(float c, float l, float q);$/;"	p	class:CSpotLight	access:public	signature:(float c, float l, float q)
+SetCamera	IRenderSystem.cpp	/^void IRenderSystem::SetCamera(CCameraNode* cam)$/;"	f	class:IRenderSystem	signature:(CCameraNode* cam)
+SetCamera	IRenderSystem.h	/^	void SetCamera(CCameraNode* cam);$/;"	p	class:IRenderSystem	access:public	signature:(CCameraNode* cam)
+SetConstantAtt	CPointLight.cpp	/^void CPointLight::SetConstantAtt(float c)$/;"	f	class:CPointLight	signature:(float c)
+SetConstantAtt	CPointLight.h	/^	void SetConstantAtt(float c);$/;"	p	class:CPointLight	access:public	signature:(float c)
+SetConstantAtt	CSpotLight.cpp	/^void CSpotLight::SetConstantAtt(float c)$/;"	f	class:CSpotLight	signature:(float c)
+SetConstantAtt	CSpotLight.h	/^	void SetConstantAtt(float c);$/;"	p	class:CSpotLight	access:public	signature:(float c)
+SetContentSystem	IGame.cpp	/^void IGame::SetContentSystem(IContentSystem* cs)$/;"	f	class:IGame	signature:(IContentSystem* cs)
+SetContentSystem	IGame.h	/^	void SetContentSystem(IContentSystem* cs);$/;"	p	class:IGame	access:public	signature:(IContentSystem* cs)
+SetCurLight	IRenderSystem.cpp	/^void IRenderSystem::SetCurLight(CLight* light)$/;"	f	class:IRenderSystem	signature:(CLight* light)
+SetCurLight	IRenderSystem.h	/^	void SetCurLight(CLight* light);$/;"	p	class:IRenderSystem	access:public	signature:(CLight* light)
+SetCurMaterial	IRenderSystem.cpp	/^void IRenderSystem::SetCurMaterial(CMaterial* mat)$/;"	f	class:IRenderSystem	signature:(CMaterial* mat)
+SetCurMaterial	IRenderSystem.h	/^	void SetCurMaterial(CMaterial* mat);$/;"	p	class:IRenderSystem	access:public	signature:(CMaterial* mat)
+SetCurMesh	IRenderSystem.cpp	/^void IRenderSystem::SetCurMesh(CMesh* mesh)$/;"	f	class:IRenderSystem	signature:(CMesh* mesh)
+SetCurMesh	IRenderSystem.h	/^	void SetCurMesh(CMesh* mesh);$/;"	p	class:IRenderSystem	access:public	signature:(CMesh* mesh)
+SetDiffuse	CLight.cpp	/^void CLight::SetDiffuse(glm::vec3 color)$/;"	f	class:CLight	signature:(glm::vec3 color)
+SetDiffuse	CLight.h	/^	void SetDiffuse(glm::vec3 color);$/;"	p	class:CLight	access:public	signature:(glm::vec3 color)
+SetDirection	CCameraNode.cpp	/^void CCameraNode::SetDirection(glm::vec3 ang)$/;"	f	class:CCameraNode	signature:(glm::vec3 ang)
+SetDirection	CCameraNode.h	/^	void SetDirection(glm::vec3 ang);$/;"	p	class:CCameraNode	access:public	signature:(glm::vec3 ang)
+SetDirection	CLightDirectional.cpp	/^void CLightDirectional::SetDirection(glm::vec3 direction)$/;"	f	class:CLightDirectional	signature:(glm::vec3 direction)
+SetDirection	CLightDirectional.h	/^	void SetDirection(glm::vec3 direction);$/;"	p	class:CLightDirectional	access:public	signature:(glm::vec3 direction)
+SetDistance	CLight.cpp	/^void CLight::SetDistance(float dist)$/;"	f	class:CLight	signature:(float dist)
+SetDistance	CLight.h	/^	void SetDistance(float dist);$/;"	p	class:CLight	access:public	signature:(float dist)
+SetFOV	CCameraNode.cpp	/^void CCameraNode::SetFOV(float fov)$/;"	f	class:CCameraNode	signature:(float fov)
+SetFOV	CCameraNode.h	/^	void SetFOV(float fov);$/;"	p	class:CCameraNode	access:public	signature:(float fov)
+SetFarZ	CCameraNode.cpp	/^void CCameraNode::SetFarZ(float z)$/;"	f	class:CCameraNode	signature:(float z)
+SetFarZ	CCameraNode.h	/^	void SetFarZ(float z);$/;"	p	class:CCameraNode	access:public	signature:(float z)
+SetInputSystem	IGame.cpp	/^void IGame::SetInputSystem(IInputSystem* is)$/;"	f	class:IGame	signature:(IInputSystem* is)
+SetInputSystem	IGame.h	/^	void SetInputSystem(IInputSystem* is);$/;"	p	class:IGame	access:public	signature:(IInputSystem* is)
+SetLinearAtt	CPointLight.cpp	/^void CPointLight::SetLinearAtt(float l)$/;"	f	class:CPointLight	signature:(float l)
+SetLinearAtt	CPointLight.h	/^	void SetLinearAtt(float l);$/;"	p	class:CPointLight	access:public	signature:(float l)
+SetLinearAtt	CSpotLight.cpp	/^void CSpotLight::SetLinearAtt(float l)$/;"	f	class:CSpotLight	signature:(float l)
+SetLinearAtt	CSpotLight.h	/^	void SetLinearAtt(float l);$/;"	p	class:CSpotLight	access:public	signature:(float l)
+SetMaterial	CMesh.cpp	/^void CMesh::SetMaterial(CMaterial material)$/;"	f	class:CMesh	signature:(CMaterial material)
+SetMaterial	CMesh.h	/^	void SetMaterial(CMaterial material);$/;"	p	class:CMesh	access:public	signature:(CMaterial material)
+SetMaterial	CMeshNode.cpp	/^void CMeshNode::SetMaterial(CMaterial* mat)$/;"	f	class:CMeshNode	signature:(CMaterial* mat)
+SetMaterial	CMeshNode.h	/^	void SetMaterial(CMaterial* mat);$/;"	p	class:CMeshNode	access:public	signature:(CMaterial* mat)
+SetModel	CMeshNode.cpp	/^void CMeshNode::SetModel(CModel* model)$/;"	f	class:CMeshNode	signature:(CModel* model)
+SetModel	CMeshNode.h	/^	void SetModel(CModel* model);$/;"	p	class:CMeshNode	access:public	signature:(CModel* model)
+SetMouseSpeed	IInputSystem.cpp	/^void IInputSystem::SetMouseSpeed(float speed)$/;"	f	class:IInputSystem	signature:(float speed)
+SetMouseSpeed	IInputSystem.h	/^	void SetMouseSpeed(float speed);$/;"	p	class:IInputSystem	access:public	signature:(float speed)
+SetNearZ	CCameraNode.cpp	/^void CCameraNode::SetNearZ(float z)$/;"	f	class:CCameraNode	signature:(float z)
+SetNearZ	CCameraNode.h	/^	void SetNearZ(float z);$/;"	p	class:CCameraNode	access:public	signature:(float z)
+SetParent	ISceneNode.cpp	/^void ISceneNode::SetParent(ISceneNode* node)$/;"	f	class:ISceneNode	signature:(ISceneNode* node)
+SetParent	ISceneNode.h	/^	virtual void SetParent(ISceneNode* node);$/;"	p	class:ISceneNode	access:public	signature:(ISceneNode* node)
+SetPos	ISceneNode.cpp	/^void ISceneNode::SetPos(glm::vec3 pos)$/;"	f	class:ISceneNode	signature:(glm::vec3 pos)
+SetPos	ISceneNode.h	/^	virtual void SetPos(glm::vec3 pos);$/;"	p	class:ISceneNode	access:public	signature:(glm::vec3 pos)
+SetPower	CLight.cpp	/^void CLight::SetPower(float power)$/;"	f	class:CLight	signature:(float power)
+SetPower	CLight.h	/^	void SetPower(float power);$/;"	p	class:CLight	access:public	signature:(float power)
+SetQuadraticAtt	CPointLight.cpp	/^void CPointLight::SetQuadraticAtt(float q)$/;"	f	class:CPointLight	signature:(float q)
+SetQuadraticAtt	CPointLight.h	/^	void SetQuadraticAtt(float q);$/;"	p	class:CPointLight	access:public	signature:(float q)
+SetQuadraticAtt	CSpotLight.cpp	/^void CSpotLight::SetQuadraticAtt(float q)$/;"	f	class:CSpotLight	signature:(float q)
+SetQuadraticAtt	CSpotLight.h	/^	void SetQuadraticAtt(float q);$/;"	p	class:CSpotLight	access:public	signature:(float q)
+SetReadBuffer	IRenderSystem.cpp	/^void IRenderSystem::SetReadBuffer(CFrameBuffer* buffer)$/;"	f	class:IRenderSystem	signature:(CFrameBuffer* buffer)
+SetReadBuffer	IRenderSystem.h	/^	void SetReadBuffer(CFrameBuffer* buffer);$/;"	p	class:IRenderSystem	access:public	signature:(CFrameBuffer* buffer)
+SetRenderSystem	IGame.cpp	/^void IGame::SetRenderSystem(IRenderSystem* rs)$/;"	f	class:IGame	signature:(IRenderSystem* rs)
+SetRenderSystem	IGame.h	/^	void SetRenderSystem(IRenderSystem* rs);$/;"	p	class:IGame	access:public	signature:(IRenderSystem* rs)
+SetRun	IGame.cpp	/^void IGame::SetRun(bool b)$/;"	f	class:IGame	signature:(bool b)
+SetRun	IGame.h	/^	void SetRun(bool b);$/;"	p	class:IGame	access:public	signature:(bool b)
+SetScale	ISceneNode.cpp	/^void ISceneNode::SetScale(glm::vec3 scale)$/;"	f	class:ISceneNode	signature:(glm::vec3 scale)
+SetScale	ISceneNode.h	/^	virtual void SetScale(glm::vec3 scale);$/;"	p	class:ISceneNode	access:public	signature:(glm::vec3 scale)
+SetSceneManager	IGame.cpp	/^void IGame::SetSceneManager(ISceneManager* sm)$/;"	f	class:IGame	signature:(ISceneManager* sm)
+SetSceneManager	IGame.h	/^	void SetSceneManager(ISceneManager* sm);$/;"	p	class:IGame	access:public	signature:(ISceneManager* sm)
+SetShader	CMeshNode.cpp	/^void CMeshNode::SetShader(CShader* shader)$/;"	f	class:CMeshNode	signature:(CShader* shader)
+SetShader	CMeshNode.h	/^	void SetShader(CShader* shader);$/;"	p	class:CMeshNode	access:public	signature:(CShader* shader)
+SetShader	IRenderSystem.cpp	/^void IRenderSystem::SetShader(CShader* shader)$/;"	f	class:IRenderSystem	signature:(CShader* shader)
+SetShader	IRenderSystem.h	/^	void SetShader(CShader* shader);$/;"	p	class:IRenderSystem	access:public	signature:(CShader* shader)
+SetShouldDraw	ISceneNode.cpp	/^void ISceneNode::SetShouldDraw(bool b)$/;"	f	class:ISceneNode	signature:(bool b)
+SetShouldDraw	ISceneNode.h	/^	virtual void SetShouldDraw(bool b);$/;"	p	class:ISceneNode	access:public	signature:(bool b)
+SetSpecular	CLight.cpp	/^void CLight::SetSpecular(glm::vec3 color)$/;"	f	class:CLight	signature:(glm::vec3 color)
+SetSpecular	CLight.h	/^	void SetSpecular(glm::vec3 color);$/;"	p	class:CLight	access:public	signature:(glm::vec3 color)
+SetSpotCutoff	CSpotLight.cpp	/^void CSpotLight::SetSpotCutoff(float cutoff)$/;"	f	class:CSpotLight	signature:(float cutoff)
+SetSpotCutoff	CSpotLight.h	/^	void SetSpotCutoff(float cutoff);$/;"	p	class:CSpotLight	access:public	signature:(float cutoff)
+SetSpotExponent	CSpotLight.cpp	/^void CSpotLight::SetSpotExponent(float exponent)$/;"	f	class:CSpotLight	signature:(float exponent)
+SetSpotExponent	CSpotLight.h	/^	void SetSpotExponent(float exponent);$/;"	p	class:CSpotLight	access:public	signature:(float exponent)
+SetWriteBuffer	IRenderSystem.cpp	/^void IRenderSystem::SetWriteBuffer(CFrameBuffer* buffer)$/;"	f	class:IRenderSystem	signature:(CFrameBuffer* buffer)
+SetWriteBuffer	IRenderSystem.h	/^	void SetWriteBuffer(CFrameBuffer* buffer);$/;"	p	class:IRenderSystem	access:public	signature:(CFrameBuffer* buffer)
+ShouldDraw	ISceneNode.cpp	/^bool ISceneNode::ShouldDraw()$/;"	f	class:ISceneNode	signature:()
+ShouldDraw	ISceneNode.h	/^	virtual bool ShouldDraw();$/;"	p	class:ISceneNode	access:public	signature:()
+Tick	CCameraNode.cpp	/^void CCameraNode::Tick()$/;"	f	class:CCameraNode	signature:()
+Tick	CCameraNode.h	/^	void Tick();$/;"	p	class:CCameraNode	access:public	signature:()
+Tick	ISceneManager.cpp	/^void ISceneManager::Tick()$/;"	f	class:ISceneManager	signature:()
+Tick	ISceneManager.h	/^	void Tick();$/;"	p	class:ISceneManager	access:public	signature:()
+Tick	ISceneNode.cpp	/^void ISceneNode::Tick() {}$/;"	f	class:ISceneNode	signature:()
+Tick	ISceneNode.h	/^	virtual void Tick();$/;"	p	class:ISceneNode	access:public	signature:()
+Unbind	CFrameBuffer.cpp	/^void CFrameBuffer::Unbind()$/;"	f	class:CFrameBuffer	signature:()
+Unbind	CFrameBuffer.h	/^	void Unbind();$/;"	p	class:CFrameBuffer	access:public	signature:()
+Unbind	GBuffer.cpp	/^void GBuffer::Unbind()$/;"	f	class:GBuffer	signature:()
+Unbind	GBuffer.h	/^	void Unbind();$/;"	p	class:GBuffer	access:public	signature:()
+Update	CShader.cpp	/^void CShader::Update() {}$/;"	f	class:CShader	signature:()
+Update	CShader.h	/^	virtual void Update();$/;"	p	class:CShader	access:public	signature:()
+Update	CShader_Deferred.cpp	/^void CShader_Deferred::Update()$/;"	f	class:CShader_Deferred	signature:()
+Update	CShader_Deferred.h	/^	virtual void Update();$/;"	p	class:CShader_Deferred	access:public	signature:()
+Update	CShader_GBuffer.cpp	/^void CShader_GBuffer::Update()$/;"	f	class:CShader_GBuffer	signature:()
+Update	CShader_GBuffer.h	/^	virtual void Update();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+Update	CShader_SSAO.cpp	/^void CShader_SSAO::Update()$/;"	f	class:CShader_SSAO	signature:()
+Update	CShader_SSAO.h	/^	virtual void Update();$/;"	p	class:CShader_SSAO	access:public	signature:()
+UpdateMatrix	ISceneNode.cpp	/^void ISceneNode::UpdateMatrix()$/;"	f	class:ISceneNode	signature:()
+UpdateMatrix	ISceneNode.h	/^	virtual void UpdateMatrix();$/;"	p	class:ISceneNode	access:public	signature:()
+UpdateShader	CMeshNode.h	/^	void UpdateShader(CMesh* mesh = 0, CLight* light = 0);$/;"	p	class:CMeshNode	access:public	signature:(CMesh* mesh = 0, CLight* light = 0)
+UpdateWindow	IGame.cpp	/^void IGame::UpdateWindow()$/;"	f	class:IGame	signature:()
+UpdateWindow	IGame.h	/^	void UpdateWindow();$/;"	p	class:IGame	access:public	signature:()
+_CCAMERANODE_H_	CCameraNode.h	8;"	d
+_CFRAMEBUFFER_H_	CFrameBuffer.h	8;"	d
+_CLIGHTDIRECTIONAL_H_	CLightDirectional.h	8;"	d
+_CLIGHTENVIRONMENT_H_	CLightEnvironment.h	8;"	d
+_CLIGHT_H_	CLight.h	8;"	d
+_CMATERIAL_H_	CMaterial.h	8;"	d
+_CMESHNODE_H_	CMeshNode.h	8;"	d
+_CMESH_H_	CMesh.h	11;"	d
+_CMODEL_H_	CModel.h	9;"	d
+_CPOINTLIGHT_H_	CPointLight.h	8;"	d
+_CPOSTPROCESSCHAIN_H_	CPostProcessChain.h	9;"	d
+_CSHADER_DEFERRED_H_	CShader_Deferred.h	8;"	d
+_CSHADER_GBUFFER_H_	CShader_GBuffer.h	8;"	d
+_CSHADER_H_	CShader.h	9;"	d
+_CSHADER_SSAO_H_	CShader_SSAO.h	8;"	d
+_CSPOTLIGHT_H_	CSpotLight.h	8;"	d
+_GBUFFER_H_	GBuffer.h	9;"	d
+_ICONTENTSYSTEM_H_	IContentSystem.h	9;"	d
+_IGAME_H_	IGame.h	8;"	d
+_IINPUTSYSTEM_H_	IInputSystem.h	8;"	d
+_IRENDERSYSTEM_H_	IRenderSystem.h	8;"	d
+_ISCENEMANAGER_H_	ISceneManager.h	9;"	d
+_ISCENENODE_H_	ISceneNode.h	13;"	d
+_KOPENGI_H_	kopengi.h	9;"	d
+g_Game	kopengi.h	/^static IGame* g_Game = new IGame();$/;"	v
+lerp	kopengi.cpp	/^double lerp(double a, double b, double coefficient)$/;"	f	signature:(double a, double b, double coefficient)
+lerp	kopengi.h	/^double lerp(double a, double b, double coefficient);$/;"	p	signature:(double a, double b, double coefficient)
+m_Ambient	CLight.h	/^	glm::vec3 m_Ambient;$/;"	m	class:CLight	access:protected
+m_Ambient	CMaterial.h	/^	glm::vec4 m_Ambient;$/;"	m	struct:CMaterial	access:public
+m_Angles	ISceneNode.h	/^	glm::vec3 m_Angles;$/;"	m	class:ISceneNode	access:protected
+m_Camera	IRenderSystem.h	/^	CCameraNode* m_Camera;$/;"	m	class:IRenderSystem	access:private
+m_Children	ISceneNode.h	/^	std::vector<ISceneNode*> m_Children;$/;"	m	class:ISceneNode	access:protected
+m_ConstantAtt	CPointLight.h	/^	float m_ConstantAtt;$/;"	m	class:CPointLight	access:private
+m_ConstantAtt	CSpotLight.h	/^	float m_ConstantAtt;$/;"	m	class:CSpotLight	access:private
+m_ContentSystem	IGame.h	/^	IContentSystem* m_ContentSystem;$/;"	m	class:IGame	access:private
+m_CurLight	IRenderSystem.h	/^	CLight* m_CurLight;$/;"	m	class:IRenderSystem	access:private
+m_CurMaterial	IRenderSystem.h	/^	CMaterial* m_CurMaterial;$/;"	m	class:IRenderSystem	access:private
+m_CurMesh	IRenderSystem.h	/^	CMesh* m_CurMesh;$/;"	m	class:IRenderSystem	access:private
+m_CurShader	IRenderSystem.h	/^	CShader* m_CurShader;$/;"	m	class:IRenderSystem	access:private
+m_Cutoff	CSpotLight.h	/^	float m_Cutoff;$/;"	m	class:CSpotLight	access:private
+m_DepthTexture	GBuffer.h	/^	GLuint m_DepthTexture;$/;"	m	class:GBuffer	access:private
+m_Diffuse	CLight.h	/^	glm::vec3 m_Diffuse;$/;"	m	class:CLight	access:protected
+m_Diffuse	CMaterial.h	/^	glm::vec4 m_Diffuse;$/;"	m	struct:CMaterial	access:public
+m_Distance	CLight.h	/^	float m_Distance;$/;"	m	class:CLight	access:protected
+m_Emissive	CMaterial.h	/^	glm::vec4 m_Emissive;$/;"	m	struct:CMaterial	access:public
+m_Enabled	CLight.h	/^	bool m_Enabled;$/;"	m	class:CLight	access:protected
+m_ErrorTexture	IContentSystem.h	/^	GLuint m_ErrorTexture;$/;"	m	class:IContentSystem	access:private
+m_Exponent	CSpotLight.h	/^	float m_Exponent;$/;"	m	class:CSpotLight	access:private
+m_FBO	CFrameBuffer.h	/^	GLuint m_FBO;$/;"	m	class:CFrameBuffer	access:protected
+m_FBO	GBuffer.h	/^	GLuint m_FBO;$/;"	m	class:GBuffer	access:private
+m_FBO	IRenderSystem.h	/^	CFrameBuffer m_FBO[2];$/;"	m	class:IRenderSystem	access:private
+m_FOV	CCameraNode.h	/^	float m_FOV;$/;"	m	class:CCameraNode	access:private
+m_FarZ	CCameraNode.h	/^	float m_FarZ;$/;"	m	class:CCameraNode	access:private
+m_Forward	CCameraNode.h	/^	glm::vec3 m_Forward; \/\/ Directional vector$/;"	m	class:CCameraNode	access:private
+m_GBuffer	IRenderSystem.h	/^	GBuffer m_GBuffer;$/;"	m	class:IRenderSystem	access:private
+m_Id	CShader.h	/^	GLuint m_Id;$/;"	m	class:CShader	access:protected
+m_Importer	IContentSystem.h	/^	Assimp::Importer m_Importer;$/;"	m	class:IContentSystem	access:private
+m_IndexBuffer	CMesh.h	/^	GLuint m_IndexBuffer;$/;"	m	class:CMesh	access:public
+m_InputSystem	IGame.h	/^	IInputSystem* m_InputSystem;$/;"	m	class:IGame	access:private
+m_Kernel	CShader_SSAO.h	/^	GLfloat* m_Kernel;$/;"	m	class:CShader_SSAO	access:private
+m_KernelSize	CShader_SSAO.h	/^	unsigned int m_KernelSize;$/;"	m	class:CShader_SSAO	access:private
+m_LastTick	CCameraNode.h	/^	float m_LastTick;$/;"	m	class:CCameraNode	access:private
+m_LightEnv	IRenderSystem.h	/^	CLightEnvironment m_LightEnv;$/;"	m	class:IRenderSystem	access:private
+m_LightList	ISceneManager.h	/^	std::vector<CLight*> m_LightList;$/;"	m	class:ISceneManager	access:private
+m_LightPower	CLight.h	/^	float m_LightPower;$/;"	m	class:CLight	access:protected
+m_LinearAtt	CPointLight.h	/^	float m_LinearAtt;$/;"	m	class:CPointLight	access:private
+m_LinearAtt	CSpotLight.h	/^	float m_LinearAtt;$/;"	m	class:CSpotLight	access:private
+m_Material	CMesh.h	/^	CMaterial m_Material;$/;"	m	class:CMesh	access:private
+m_Material	CMeshNode.h	/^	CMaterial* m_Material;$/;"	m	class:CMeshNode	access:private
+m_Meshes	CModel.h	/^	std::vector<CMesh*> m_Meshes;$/;"	m	class:CModel	access:private
+m_Model	CMeshNode.h	/^	CModel* m_Model;$/;"	m	class:CMeshNode	access:private
+m_ModelCache	IContentSystem.h	/^	std::map<std::string, CModel*> m_ModelCache;$/;"	m	class:IContentSystem	access:private
+m_ModelMatrix	ISceneNode.h	/^	glm::mat4 m_ModelMatrix;$/;"	m	class:ISceneNode	access:protected
+m_MouseDX	IInputSystem.h	/^	float m_MouseDX;$/;"	m	class:IInputSystem	access:private
+m_MouseDY	IInputSystem.h	/^	float m_MouseDY;$/;"	m	class:IInputSystem	access:private
+m_MouseSpeed	IInputSystem.h	/^	float m_MouseSpeed;$/;"	m	class:IInputSystem	access:private
+m_MouseX	IInputSystem.h	/^	int m_MouseX;$/;"	m	class:IInputSystem	access:private
+m_MouseY	IInputSystem.h	/^	int m_MouseY;$/;"	m	class:IInputSystem	access:private
+m_NearZ	CCameraNode.h	/^	float m_NearZ;$/;"	m	class:CCameraNode	access:private
+m_NodeList	ISceneManager.h	/^	std::vector<ISceneNode*> m_NodeList;$/;"	m	class:ISceneManager	access:private
+m_NoiseSize	CShader_SSAO.h	/^	unsigned int m_NoiseSize;$/;"	m	class:CShader_SSAO	access:private
+m_NoiseTexture	CShader_SSAO.h	/^	GLuint m_NoiseTexture;$/;"	m	class:CShader_SSAO	access:private
+m_NormalBuffer	CMesh.h	/^	GLuint m_NormalBuffer;$/;"	m	class:CMesh	access:public
+m_NormalMatrix	ISceneNode.h	/^	glm::mat4 m_NormalMatrix;$/;"	m	class:ISceneNode	access:protected
+m_NumFaces	CMesh.h	/^	unsigned int m_NumFaces;$/;"	m	class:CMesh	access:public
+m_PPChain	IRenderSystem.h	/^	CPostProcessChain m_PPChain;$/;"	m	class:IRenderSystem	access:private
+m_Parent	ISceneNode.h	/^	ISceneNode* m_Parent;$/;"	m	class:ISceneNode	access:protected
+m_ParentMatrix	ISceneNode.h	/^	glm::mat4 m_ParentMatrix;$/;"	m	class:ISceneNode	access:protected
+m_Pos	ISceneNode.h	/^	glm::vec3 m_Pos;$/;"	m	class:ISceneNode	access:protected
+m_ProjectionMatrix	IRenderSystem.h	/^	glm::mat4 m_ProjectionMatrix;$/;"	m	class:IRenderSystem	access:private
+m_QuadraticAtt	CPointLight.h	/^	float m_QuadraticAtt;$/;"	m	class:CPointLight	access:private
+m_QuadraticAtt	CSpotLight.h	/^	float m_QuadraticAtt;$/;"	m	class:CSpotLight	access:private
+m_ReadBuffer	CShader_SSAO.h	/^	CFrameBuffer* m_ReadBuffer;$/;"	m	class:CShader_SSAO	access:private
+m_ReadBuffer	IRenderSystem.h	/^	CFrameBuffer* m_ReadBuffer;$/;"	m	class:IRenderSystem	access:private
+m_RenderSystem	IGame.h	/^	IRenderSystem* m_RenderSystem;$/;"	m	class:IGame	access:private
+m_Right	CCameraNode.h	/^	glm::vec3 m_Right;$/;"	m	class:CCameraNode	access:private
+m_SSAO_Buffer	CShader_SSAO.h	/^	CFrameBuffer m_SSAO_Buffer;$/;"	m	class:CShader_SSAO	access:private
+m_Scale	ISceneNode.h	/^	glm::vec3 m_Scale;$/;"	m	class:ISceneNode	access:protected
+m_SceneManager	IGame.h	/^	ISceneManager* m_SceneManager;$/;"	m	class:IGame	access:private
+m_ScreenQuad	IRenderSystem.h	/^	GLuint m_ScreenQuad;$/;"	m	class:IRenderSystem	access:private
+m_ScreenUVs	IRenderSystem.h	/^	GLuint m_ScreenUVs;$/;"	m	class:IRenderSystem	access:private
+m_Shader	CMeshNode.h	/^	CShader* m_Shader;$/;"	m	class:CMeshNode	access:private
+m_Shaders	CPostProcessChain.h	/^	std::vector<CShader*> m_Shaders;$/;"	m	class:CPostProcessChain	access:private
+m_Shaders	IRenderSystem.h	/^	std::map<std::string, CShader*> m_Shaders;$/;"	m	class:IRenderSystem	access:private
+m_Shininess	CMaterial.h	/^	float m_Shininess;$/;"	m	struct:CMaterial	access:public
+m_ShouldDraw	ISceneNode.h	/^	bool m_ShouldDraw;$/;"	m	class:ISceneNode	access:protected
+m_SkyboxVerts	IRenderSystem.h	/^	GLuint m_SkyboxVerts;$/;"	m	class:IRenderSystem	access:private
+m_Specular	CLight.h	/^	glm::vec3 m_Specular;$/;"	m	class:CLight	access:protected
+m_Specular	CMaterial.h	/^	glm::vec4 m_Specular;$/;"	m	struct:CMaterial	access:public
+m_Status	CFrameBuffer.h	/^	bool m_Status;$/;"	m	class:CFrameBuffer	access:protected
+m_Status	GBuffer.h	/^	bool m_Status;$/;"	m	class:GBuffer	access:private
+m_TextureCache	IContentSystem.h	/^	std::map<std::string, GLuint> m_TextureCache;$/;"	m	class:IContentSystem	access:private
+m_TextureCount	CMaterial.h	/^	int m_TextureCount;$/;"	m	struct:CMaterial	access:public
+m_TextureIndex	CMesh.h	/^	GLuint m_TextureIndex;$/;"	m	class:CMesh	access:public
+m_Textures	CFrameBuffer.h	/^	GLuint* m_Textures;$/;"	m	class:CFrameBuffer	access:public
+m_Textures	GBuffer.h	/^	GLuint m_Textures[GBUFFER_NUM_TEXTURES];$/;"	m	class:GBuffer	access:public
+m_UVBuffer	CMesh.h	/^	GLuint m_UVBuffer;$/;"	m	class:CMesh	access:public
+m_UniformBlockIndex	CMesh.h	/^	GLuint m_UniformBlockIndex;$/;"	m	class:CMesh	access:public
+m_Up	CCameraNode.h	/^	glm::vec3 m_Up;$/;"	m	class:CCameraNode	access:private
+m_VertexBuffer	CMesh.h	/^	GLuint m_VertexBuffer;$/;"	m	class:CMesh	access:public
+m_ViewMatrix	IRenderSystem.h	/^	glm::mat4 m_ViewMatrix;$/;"	m	class:IRenderSystem	access:private
+m_ViewRotMatrix	IRenderSystem.h	/^	glm::mat3 m_ViewRotMatrix;$/;"	m	class:IRenderSystem	access:private
+m_WindowHeight	IGame.h	/^	int m_WindowHeight;$/;"	m	class:IGame	access:private
+m_WindowWidth	IGame.h	/^	int m_WindowWidth;$/;"	m	class:IGame	access:private
+m_WriteBuffer	CShader_SSAO.h	/^	CFrameBuffer* m_WriteBuffer;$/;"	m	class:CShader_SSAO	access:private
+m_WriteBuffer	IRenderSystem.h	/^	CFrameBuffer* m_WriteBuffer;$/;"	m	class:IRenderSystem	access:private
+m_XAngle	CCameraNode.h	/^	float m_XAngle;$/;"	m	class:CCameraNode	access:private
+m_YAngle	CCameraNode.h	/^	float m_YAngle;$/;"	m	class:CCameraNode	access:private
+m_bRun	IGame.h	/^	bool m_bRun;$/;"	m	class:IGame	access:private
+main	main.cpp	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+random	kopengi.cpp	/^float random(float a, float b)$/;"	f	signature:(float a, float b)
+random	kopengi.h	/^float random(float a, float b);$/;"	p	signature:(float a, float b)
+~CCameraNode	CCameraNode.cpp	/^CCameraNode::~CCameraNode() {}$/;"	f	class:CCameraNode	signature:()
+~CCameraNode	CCameraNode.h	/^	~CCameraNode();$/;"	p	class:CCameraNode	access:public	signature:()
+~CFrameBuffer	CFrameBuffer.cpp	/^CFrameBuffer::~CFrameBuffer()$/;"	f	class:CFrameBuffer	signature:()
+~CFrameBuffer	CFrameBuffer.h	/^	~CFrameBuffer();$/;"	p	class:CFrameBuffer	access:public	signature:()
+~CLight	CLight.cpp	/^CLight::~CLight() {}$/;"	f	class:CLight	signature:()
+~CLight	CLight.h	/^	~CLight();$/;"	p	class:CLight	access:public	signature:()
+~CLightDirectional	CLightDirectional.cpp	/^CLightDirectional::~CLightDirectional() {}$/;"	f	class:CLightDirectional	signature:()
+~CLightDirectional	CLightDirectional.h	/^	~CLightDirectional();$/;"	p	class:CLightDirectional	access:public	signature:()
+~CLightEnvironment	CLightEnvironment.cpp	/^CLightEnvironment::~CLightEnvironment() {}/;"	f	class:CLightEnvironment	signature:()
+~CLightEnvironment	CLightEnvironment.h	/^	~CLightEnvironment();$/;"	p	class:CLightEnvironment	access:public	signature:()
+~CMesh	CMesh.cpp	/^CMesh::~CMesh() {}$/;"	f	class:CMesh	signature:()
+~CMesh	CMesh.h	/^	~CMesh();$/;"	p	class:CMesh	access:public	signature:()
+~CMeshNode	CMeshNode.cpp	/^CMeshNode::~CMeshNode() {}$/;"	f	class:CMeshNode	signature:()
+~CMeshNode	CMeshNode.h	/^	~CMeshNode();$/;"	p	class:CMeshNode	access:public	signature:()
+~CModel	CModel.cpp	/^CModel::~CModel()$/;"	f	class:CModel	signature:()
+~CModel	CModel.h	/^	~CModel();$/;"	p	class:CModel	access:public	signature:()
+~CPointLight	CPointLight.cpp	/^CPointLight::~CPointLight() {}$/;"	f	class:CPointLight	signature:()
+~CPointLight	CPointLight.h	/^	~CPointLight();$/;"	p	class:CPointLight	access:public	signature:()
+~CPostProcessChain	CPostProcessChain.cpp	/^CPostProcessChain::~CPostProcessChain() {}$/;"	f	class:CPostProcessChain	signature:()
+~CPostProcessChain	CPostProcessChain.h	/^	~CPostProcessChain();$/;"	p	class:CPostProcessChain	access:public	signature:()
+~CShader	CShader.cpp	/^CShader::~CShader() {}$/;"	f	class:CShader	signature:()
+~CShader	CShader.h	/^	~CShader();$/;"	p	class:CShader	access:public	signature:()
+~CShader_Deferred	CShader_Deferred.cpp	/^CShader_Deferred::~CShader_Deferred() {}$/;"	f	class:CShader_Deferred	signature:()
+~CShader_Deferred	CShader_Deferred.h	/^	~CShader_Deferred();$/;"	p	class:CShader_Deferred	access:public	signature:()
+~CShader_GBuffer	CShader_GBuffer.cpp	/^CShader_GBuffer::~CShader_GBuffer() {}$/;"	f	class:CShader_GBuffer	signature:()
+~CShader_GBuffer	CShader_GBuffer.h	/^	~CShader_GBuffer();$/;"	p	class:CShader_GBuffer	access:public	signature:()
+~CShader_SSAO	CShader_SSAO.cpp	/^CShader_SSAO::~CShader_SSAO() {}$/;"	f	class:CShader_SSAO	signature:()
+~CShader_SSAO	CShader_SSAO.h	/^	~CShader_SSAO();$/;"	p	class:CShader_SSAO	access:public	signature:()
+~CSpotLight	CSpotLight.cpp	/^CSpotLight::~CSpotLight() {}$/;"	f	class:CSpotLight	signature:()
+~CSpotLight	CSpotLight.h	/^	~CSpotLight();$/;"	p	class:CSpotLight	access:public	signature:()
+~GBuffer	GBuffer.cpp	/^GBuffer::~GBuffer()$/;"	f	class:GBuffer	signature:()
+~GBuffer	GBuffer.h	/^	~GBuffer();$/;"	p	class:GBuffer	access:public	signature:()
+~IContentSystem	IContentSystem.cpp	/^IContentSystem::~IContentSystem()$/;"	f	class:IContentSystem	signature:()
+~IContentSystem	IContentSystem.h	/^	~IContentSystem();$/;"	p	class:IContentSystem	access:public	signature:()
+~IGame	IGame.cpp	/^IGame::~IGame()$/;"	f	class:IGame	signature:()
+~IGame	IGame.h	/^	~IGame();$/;"	p	class:IGame	access:public	signature:()
+~IInputSystem	IInputSystem.cpp	/^IInputSystem::~IInputSystem() {}$/;"	f	class:IInputSystem	signature:()
+~IInputSystem	IInputSystem.h	/^	~IInputSystem();$/;"	p	class:IInputSystem	access:public	signature:()
+~IRenderSystem	IRenderSystem.cpp	/^IRenderSystem::~IRenderSystem() {}$/;"	f	class:IRenderSystem	signature:()
+~IRenderSystem	IRenderSystem.h	/^	~IRenderSystem();$/;"	p	class:IRenderSystem	access:public	signature:()
+~ISceneManager	ISceneManager.cpp	/^ISceneManager::~ISceneManager() {}$/;"	f	class:ISceneManager	signature:()
+~ISceneManager	ISceneManager.h	/^	~ISceneManager();$/;"	p	class:ISceneManager	access:public	signature:()
+~ISceneNode	ISceneNode.cpp	/^ISceneNode::~ISceneNode() {}$/;"	f	class:ISceneNode	signature:()
+~ISceneNode	ISceneNode.h	/^	~ISceneNode();$/;"	p	class:ISceneNode	access:public	signature:()

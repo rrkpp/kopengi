@@ -41,7 +41,7 @@ CModel* IContentSystem::LoadModel(std::string filepath)
 
 	if (!data)
 	{
-		std::cout << "ERROR: Failed to load file: " << m_Importer.GetErrorString() << std::endl;
+		log(LOG_TYPE_ERROR, "Failed to load file: " + std::string(m_Importer.GetErrorString()));
 		return 0;
 	}
 
@@ -223,8 +223,8 @@ GLuint IContentSystem::GetTexture(std::string path)
 
 	if (result == 0)
 	{
-		std::cout << "ERROR: Failed to load file: " << path << std::endl;
-		std::cout << ">> SOIL: " << SOIL_last_result() << std::endl;
+		log(LOG_TYPE_ERROR, "Failed to load file: " + path);
+		log(LOG_TYPE_DEFAULT, ">> SOIL: " + std::string(SOIL_last_result()) + "\n");
 		result = GetErrorTexture();
 		return result;
 	}

@@ -20,7 +20,7 @@ bool IGame::Init(int w, int h, std::string title)
 {
 	if (!glfwInit())
 	{
-		std::cout << "ERROR: Failed to initialize GLFW!" << std::endl;
+		log(LOG_TYPE_ERROR, "Failed to initialize GLFW!");
 		return false;
 	}
 
@@ -34,21 +34,34 @@ bool IGame::Init(int w, int h, std::string title)
 	
 	if (!glfwOpenWindow(m_WindowWidth, m_WindowHeight, 0, 0, 0, 0, 24, 0, GLFW_WINDOW))
 	{
-		std::cout << "ERROR: Failed to create window!" << std::endl;
+		log(LOG_TYPE_ERROR, "Failed to create window!");
 		glfwTerminate();
 		return false;
 	}
 
 	if (glewInit() != GLEW_OK)
 	{
-		std::cout << "ERROR: Failed to initialize GLEW!" << std::endl;
+		log(LOG_TYPE_ERROR, "Failed to initialize GLEW!");
 		return false;
 	}
 
 	glfwSetWindowTitle(title.c_str());
 	glfwDisable(GLFW_MOUSE_CURSOR);
+
+	// Clear log.txt
+	std::ofstream logFile("log.txt");
+	logFile << " " << std::endl;
+	logFile.close();
+
+	log(LOG_TYPE_SUCCESS, "OpenGL successfully initialized..");
 	
-	srand(time(NULL));
+	// Output OpenGL / GLSL information
+	std::string glVersion = std::string((char*)glGetString(GL_VERSION));
+	std::string glslVersion = std::string((char*)glGetString(GL_SHADING_LANGUAGE_VERSION));
+	log(LOG_TYPE_DEFAULT, "OpenGL Version: " + glVersion);
+	log(LOG_TYPE_DEFAULT, "GLSL Version: " + glslVersion + "\n");
+
+	//LoadSettings();
 
 	m_SceneManager = new ISceneManager();
 	m_RenderSystem = new IRenderSystem();
@@ -124,7 +137,8 @@ void IGame::UpdateWindow()
 {
 	if (!glfwGetWindowParam(GLFW_OPENED))
 	{
-		std::cout << "Window closed, terminating.." << std::endl;
+		log(LOG_TYPE_DEFAULT, "\n");
+		log(LOG_TYPE_SUCCESS, "Window closed, engine shutting down..");
 		SetRun(false);
 		return;
 	}
