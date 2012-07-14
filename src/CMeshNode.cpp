@@ -17,7 +17,7 @@ CMeshNode::~CMeshNode() {}
 
 void CMeshNode::Draw(bool useShader)
 {
-	if (m_ShouldDraw && m_Model != 0)
+	if (m_ShouldDraw && m_Model != 0 && GetGame()->GetRenderSystem()->GetCurShader() != 0)
 	{
 		// Pass matrix data to the shader
 		GLuint modelMatrixID = glGetUniformLocation(GetGame()->GetRenderSystem()->GetCurShader()->GetID(), "ModelMatrix");
@@ -33,6 +33,10 @@ void CMeshNode::Draw(bool useShader)
 		{
 			CMesh* mesh = m_Model->GetMesh(i);
 			GetGame()->GetRenderSystem()->SetCurMesh(mesh);
+
+			if (useShader && m_Shader != 0)
+				GetGame()->GetRenderSystem()->SetShader(m_Shader);
+
 			GetGame()->GetRenderSystem()->GetCurShader()->Update();
 			GetGame()->GetRenderSystem()->GetCurShader()->Render();
 		}

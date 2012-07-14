@@ -148,6 +148,12 @@ void CShader_SSAO::Render()
 	glDisable(GL_CULL_FACE);
 	glDisable(GL_DEPTH_TEST);
 
+	if (GetGame()->GetGLSLVersion() == GLSL_VERSION_130)
+	{
+		glBindAttribLocation(GetID(), 0, "vertexPos_MS");
+		glBindAttribLocation(GetID(), 1, "vertexTexCoords");
+	}
+
 	// Enable positions
 	glEnableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, GetGame()->GetRenderSystem()->GetScreenQuad());

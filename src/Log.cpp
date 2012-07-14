@@ -1,9 +1,9 @@
 /*
- * Log.cpp - Regan Russell
- *
- * Contains enumerations, constant values and functions
- * used for engine logging and console output.
- */
+*	Log.cpp - Regan Russell
+*
+*	Contains enumerations, constant values and functions
+*	used for engine logging and console output.
+*/
 
 #include "kopengi.h"
 
@@ -35,11 +35,6 @@ void log(LogType type, std::string msg)
 	{
 		std::cout << LOG_COLOR_CYAN << "[SCRIPT]: " << LOG_COLOR_DEFAULT << msg << std::endl;
 		logFile << "[SCRIPT]: " << msg << std::endl;
-	}
-	else if (type == LOG_TYPE_SUCCESS)
-	{
-		std::cout << LOG_COLOR_GREEN << "[SUCCESS]: " << LOG_COLOR_DEFAULT << msg << std::endl;
-		logFile << "[SUCCESS]: " << msg << std::endl;
 	}
 
 	logFile.close();

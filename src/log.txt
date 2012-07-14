@@ -1,0 +1,47 @@
+ 
+[SUCCESS]: OpenGL successfully initialized..
+OpenGL Version: 3.0 Mesa 8.0.3
+GLSL Version: 1.30
+[SUCCESS]: Lua interface successfully initialized!
+Compiling Shader: shaders/unlit.vs.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Compiling Shader: shaders/unlit.ps.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Linking shader ..
+[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
+Compiling Shader: shaders/gbuffer.vs.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Compiling Shader: shaders/gbuffer.ps.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Linking shader ..
+[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
+Compiling Shader: shaders/deferred.vs.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Compiling Shader: shaders/deferred.ps.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Linking shader ..
+[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
+Compiling Shader: shaders/ssao.vs.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Compiling Shader: shaders/ssao.ps.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Linking shader ..
+[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
+Compiling Shader: shaders/ssao_blur.vs.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Compiling Shader: shaders/ssao_blur.ps.glsl..
+[ERROR]: 0:1(1): error: syntax error, unexpected $end
+
+Linking shader ..
+[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
+[SCRIPT]: ERROR: cannot open lua/lib/kopengi.lua: No such file or directory
+[ERROR]: Failed to load file: Unable to open file "mirrorsedge.obj".

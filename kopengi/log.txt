@@ -1,187 +1,94 @@
  
-[SUCCESS]: OpenGL successfully initialized..
+OpenGL successfully initialized..
 OpenGL Version: 3.0 Mesa 8.0.3
 GLSL Version: 1.30
-
---
-
-Compiling Shader: shaders/unlit.vs.glsl..
-[ERROR]: 0:9(1): error: syntax error, unexpected IDENTIFIER
-
-Compiling Shader: shaders/unlit.ps.glsl..
+Lua interface successfully initialized!
+Compiling Shader: shaders/1_30/unlit.vs.glsl..
+Compiling Shader: shaders/1_30/unlit.ps.glsl..
 Linking shader ..
-[ERROR]: error: linking with uncompiled shader
-
---
-
-Compiling Shader: shaders/gbuffer.vs.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-0:9(8): error: unrecognized layout identifier `location'
-
-
-Compiling Shader: shaders/gbuffer.ps.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-
+Compiling Shader: shaders/1_30/gbuffer.vs.glsl..
+Compiling Shader: shaders/1_30/gbuffer.ps.glsl..
 Linking shader ..
-[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
-
---
-
-Compiling Shader: shaders/deferred.vs.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-0:9(8): error: unrecognized layout identifier `location'
-
-
-Compiling Shader: shaders/deferred.ps.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-
+Compiling Shader: shaders/1_30/deferred.vs.glsl..
+Compiling Shader: shaders/1_30/deferred.ps.glsl..
 Linking shader ..
-[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
-
---
-
-Compiling Shader: shaders/ssao.vs.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-0:9(8): error: unrecognized layout identifier `location'
-
-
-Compiling Shader: shaders/ssao.ps.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-
+Compiling Shader: shaders/1_30/ssao.vs.glsl..
+Compiling Shader: shaders/1_30/ssao.ps.glsl..
 Linking shader ..
-[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
-
---
-
-Compiling Shader: shaders/ssao_blur.vs.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-0:9(8): error: unrecognized layout identifier `location'
-
-
-Compiling Shader: shaders/ssao_blur.ps.glsl..
-[ERROR]: 0:2(10): error: GLSL 3.30 is not supported. Supported versions are: 1.00 ES, 1.10, 1.20, and 1.30
-
-
+Compiling Shader: shaders/1_30/ssao_blur.vs.glsl..
+Compiling Shader: shaders/1_30/ssao_blur.ps.glsl..
 Linking shader ..
-[ERROR]: error: linking with uncompiled shadererror: linking with uncompiled shader
-
---
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ChairLobby_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP03_FurntiureWood_01_DA.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_OfficeFurniture_02_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ChairLobby_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ChairLobby_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_Painting_02_D_v.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_LargeScreenTV_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_GlassWallFrosted_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_Door_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ChairLobby_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ChairLobby_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ChairLobby_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_LargeScreenTV_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_FloorTexture_01.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_Door_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_GlassWallFrosted_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ElevatorFrame_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ElevatorFrame_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_ElevatorFrame_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_OfficePlasterWall_01.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_OfficePlasterWall_01.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_OfficePlasterWall_01.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_OfficePlasterWall_01.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_FloorTexture_02.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\T_SP01_CeilingPanel_01_D.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\windowframe.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\windowframe.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\windowframe.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\windowframe.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\windowframe.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\windowframe.tga
 >> SOIL: Unable to open file
-
 [ERROR]: Failed to load file: textures\mirrorsedge\backdrop.tga
 >> SOIL: Unable to open file
-

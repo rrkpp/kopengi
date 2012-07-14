@@ -224,7 +224,7 @@ GLuint IContentSystem::GetTexture(std::string path)
 	if (result == 0)
 	{
 		log(LOG_TYPE_ERROR, "Failed to load file: " + path);
-		log(LOG_TYPE_DEFAULT, ">> SOIL: " + std::string(SOIL_last_result()) + "\n");
+		log(LOG_TYPE_DEFAULT, ">> SOIL: " + std::string(SOIL_last_result()));
 		result = GetErrorTexture();
 		return result;
 	}

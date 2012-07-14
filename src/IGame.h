@@ -27,6 +27,9 @@ public:
 	void SetContentSystem(IContentSystem* cs);
 	IContentSystem* GetContentSystem();
 
+	void SetLuaInterface(ILuaInterface* lua);
+	ILuaInterface* GetLuaInterface();
+
 	void SetRun(bool b);
 	bool Running();
 
@@ -35,12 +38,26 @@ public:
 
 	void UpdateWindow();
 
+	void SetConfig(CConfig config);
+	CConfig* GetConfig();
+
+	void DetectHardware();
+
+	float GetGLVersion();
+	float GetGLSLVersion();
+
+	float GetMinGLVersion();
+	float GetMinGLSLVersion();
+
 private:
 	// Engine interfaces
 	IRenderSystem* m_RenderSystem;
 	IInputSystem* m_InputSystem;
 	ISceneManager* m_SceneManager;
 	IContentSystem* m_ContentSystem;
+	ILuaInterface* m_LuaInterface;
+
+	CConfig m_Config;
 
 	bool m_bRun;
 	int m_WindowWidth;

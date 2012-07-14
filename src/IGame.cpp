@@ -14,6 +14,7 @@ IGame::~IGame()
 	delete m_InputSystem;
 	delete m_SceneManager;
 	delete m_ContentSystem;
+	delete m_LuaInterface;
 }
 
 bool IGame::Init(int w, int h, std::string title)
@@ -53,20 +54,18 @@ bool IGame::Init(int w, int h, std::string title)
 	logFile << " " << std::endl;
 	logFile.close();
 
-	log(LOG_TYPE_SUCCESS, "OpenGL successfully initialized..");
-	
-	// Output OpenGL / GLSL information
-	std::string glVersion = std::string((char*)glGetString(GL_VERSION));
-	std::string glslVersion = std::string((char*)glGetString(GL_SHADING_LANGUAGE_VERSION));
-	log(LOG_TYPE_DEFAULT, "OpenGL Version: " + glVersion);
-	log(LOG_TYPE_DEFAULT, "GLSL Version: " + glslVersion + "\n");
+	log(LOG_TYPE_DEFAULT, "OpenGL successfully initialized..");
+		
+	DetectHardware();
 
-	//LoadSettings();
-
+	m_LuaInterface = new ILuaInterface();
 	m_SceneManager = new ISceneManager();
 	m_RenderSystem = new IRenderSystem();
 	m_InputSystem = new IInputSystem();
 	m_ContentSystem = new IContentSystem();
+
+	//temp
+	//m_LuaInterface->LoadScript("lua/lib/kopengi.lua");
 
 	m_bRun = true;
 
@@ -113,6 +112,16 @@ IContentSystem* IGame::GetContentSystem()
 	return m_ContentSystem;
 }
 
+void IGame::SetLuaInterface(ILuaInterface* lua)
+{
+	m_LuaInterface = lua;
+}
+
+ILuaInterface* IGame::GetLuaInterface()
+{
+	return m_LuaInterface;
+}
+
 void IGame::SetRun(bool b)
 {
 	m_bRun = b;
@@ -138,8 +147,50 @@ void IGame::UpdateWindow()
 	if (!glfwGetWindowParam(GLFW_OPENED))
 	{
 		log(LOG_TYPE_DEFAULT, "\n");
-		log(LOG_TYPE_SUCCESS, "Window closed, engine shutting down..");
+		log(LOG_TYPE_DEFAULT, "Window closed, engine shutting down..");
 		SetRun(false);
 		return;
 	}
+}
+
+void IGame::SetConfig(CConfig config)
+{
+	m_Config = config;
+}
+
+CConfig* IGame::GetConfig()
+{
+	return &m_Config;
+}
+
+void IGame::DetectHardware()
+{
+	// Output OpenGL / GLSL information
+	std::string glVersion = std::string((char*)glGetString(GL_VERSION));
+	std::string glslVersion = std::string((char*)glGetString(GL_SHADING_LANGUAGE_VERSION));
+	log(LOG_TYPE_DEFAULT, "OpenGL Version: " + glVersion);
+	log(LOG_TYPE_DEFAULT, "GLSL Version: " + glslVersion);
+
+	m_Config.OpenGLVersion = atof((glVersion.substr(0, 3)).c_str());
+	m_Config.GLSLVersion = atof((glslVersion.substr(0, 3)).c_str());
+}
+
+float IGame::GetGLVersion()
+{
+	return m_Config.OpenGLVersion;
+}
+
+float IGame::GetGLSLVersion()
+{
+	return m_Config.GLSLVersion;
+}
+
+float IGame::GetMinGLVersion()
+{
+	return 3.0;
+}
+
+float IGame::GetMinGLSLVersion()
+{
+	return 1.3;
 }

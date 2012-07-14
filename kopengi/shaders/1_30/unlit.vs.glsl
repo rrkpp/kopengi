@@ -1,12 +1,12 @@
-#version 330
+#version 130
 
 // _MS = Model Space
 // _WS = World Space
 // _CS = Camera Space
 
 // vertex data
-layout(location = 0) in vec3 vertexPos_MS;
-layout(location = 1) in vec2 vertexTexCoords;
+attribute vec3 vertexPos_MS;
+attribute vec2 vertexTexCoords;
 
 // output
 out vec2 texCoords;

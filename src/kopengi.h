@@ -14,6 +14,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <sstream>
 #include <fstream>
 #include <iostream>
 #include <time.h>
@@ -27,7 +28,15 @@
 #include <assimp/aiScene.h>
 #include <assimp/aiPostProcess.h>
 
+extern "C" {
+	#include "lua.h"
+	#include "lualib.h"
+	#include "lauxlib.h"
+}
+
 // Engine Include
+#include "CConfig.h"
+#include "ILuaInterface.h"
 #include "Log.h"
 #include "CFrameBuffer.h"
 #include "GBuffer.h"
@@ -62,9 +71,12 @@
 	#pragma comment(lib, "assimp.lib")
 #endif
 
-#define ARRAY_SIZE_IN_ELEMENTS(a) (sizeof(a)/sizeof(a[0]))
-
 static IGame* g_Game = new IGame();
+
+const float GL_VERSION_300 = 3.0;
+const float GL_VERSION_330 = 3.3;
+const float GLSL_VERSION_130 = 1.3;
+const float GLSL_VERSION_330 = 3.3;
 
 IGame* GetGame(); // Returns pointer to the game object
 double CurTime(); // Gets the current game time

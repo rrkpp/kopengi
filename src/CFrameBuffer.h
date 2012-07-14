@@ -23,6 +23,7 @@ public:
 protected:
 	GLuint m_FBO;
 	bool m_Status;
+	unsigned int m_NumTextures;
 };
 
 #endif

@@ -107,10 +107,8 @@ CShader::CShader(std::string vs_path, std::string ps_path)
 			shaderError[shaderError.size() - 1] = '\0';
 		}
 
-		log(LOG_TYPE_ERROR, std::string((char*)&shaderError[0]) + "\n");
+		log(LOG_TYPE_ERROR, std::string((char*)&shaderError[0]));
 	}
-
-	log(LOG_TYPE_DEFAULT, "--\n");
 
 	// Clean up
 	glDeleteShader(vsID);

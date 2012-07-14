@@ -96,7 +96,7 @@ CShader_GBuffer::CShader_GBuffer(std::string vs_path, std::string ps_path)
 	if (!result)
 	{
 		glGetProgramiv(shaderID, GL_INFO_LOG_LENGTH, &logLength);
-		std::vector<char> shaderError(std::max(logLength, int(1)));
+		std::vector<char> shaderError(logLength);
 		glGetProgramInfoLog(shaderID, logLength, NULL, &shaderError[0]);
 		
 		if (shaderError.size() - 1 >= 0)
@@ -104,18 +104,15 @@ CShader_GBuffer::CShader_GBuffer(std::string vs_path, std::string ps_path)
 			shaderError[shaderError.size() - 1] = '\0';
 		}
 
-		log(LOG_TYPE_ERROR, std::string((char*)&shaderError[0]) + "\n");
+		log(LOG_TYPE_ERROR, std::string((char*)&shaderError[0]));
 	}
-
-	log(LOG_TYPE_DEFAULT, "--\n");
 
 	// Clean up
 	glDeleteShader(vsID);
 	glDeleteShader(psID);
 
 	// Save the ID
-	m_Id = shaderID;
-}
+	m_Id = shaderID;}
 
 CShader_GBuffer::~CShader_GBuffer() {}
 
@@ -165,6 +162,13 @@ void CShader_GBuffer::Update()
 void CShader_GBuffer::Render()
 {
 	CMesh* mesh = GetGame()->GetRenderSystem()->GetCurMesh();
+
+	if (GetGame()->GetGLSLVersion() == GLSL_VERSION_130)
+	{
+		glBindAttribLocation(GetID(), 0, "vertexPos_MS");
+		glBindAttribLocation(GetID(), 1, "vertexTexCoords");
+		glBindAttribLocation(GetID(), 2, "vertexNormal_MS");
+	}
 
 	// Enable positions
 	glEnableVertexAttribArray(0);

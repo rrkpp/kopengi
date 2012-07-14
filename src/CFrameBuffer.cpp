@@ -16,7 +16,7 @@ CFrameBuffer::~CFrameBuffer()
 		glDeleteFramebuffers(1, &m_FBO);
 
 	if (m_Textures[0] != 0)
-		glDeleteTextures(ARRAY_SIZE_IN_ELEMENTS(m_Textures), m_Textures);
+		glDeleteTextures(m_NumTextures, m_Textures);
 
 	delete m_Textures;
 }
@@ -28,6 +28,7 @@ bool CFrameBuffer::Init(unsigned int w, unsigned int h, int numTextures)
 	glBindFramebuffer(GL_DRAW_FRAMEBUFFER, m_FBO);
 
 	// Generate GBuffer textures
+	m_NumTextures = numTextures;
 	m_Textures = new GLuint[numTextures];
 	glGenTextures(numTextures, m_Textures);
 

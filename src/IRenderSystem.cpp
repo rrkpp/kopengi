@@ -104,16 +104,19 @@ void IRenderSystem::Draw()
 	m_ViewMatrix = glm::lookAt(m_Camera->GetPos(), m_Camera->GetPos() + m_Camera->GetDirection(), m_Camera->GetUp());
 	m_ViewRotMatrix = glm::mat3(m_ViewMatrix);
 
-	// Geometry Pass
-	SetShader(GetShader("gbuffer"));
-	m_GBuffer.BindForWriting();
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	GetGame()->GetSceneManager()->Draw(false);
-	m_GBuffer.Unbind();
+	if (GetShader("gbuffer") != 0)
+	{
+		// Geometry Pass
+		SetShader(GetShader("gbuffer"));
+		m_GBuffer.BindForWriting();
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		GetGame()->GetSceneManager()->Draw(false);
+		m_GBuffer.Unbind();
 
-	// Light Pass
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	RenderPostEffects();
+		// Light Pass
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		RenderPostEffects();
+	}
 
 	// Skybox
 	//RenderSkybox();
@@ -124,25 +127,61 @@ void IRenderSystem::Draw()
 
 void IRenderSystem::LoadShaders()
 {
-	log(LOG_TYPE_DEFAULT, "--\n");
+	if (GetGame()->GetGLSLVersion() >= GetGame()->GetMinGLSLVersion())
+	{
+		if (GetGame()->GetGLSLVersion() == GLSL_VERSION_330)
+		{
+			CShader* shader = new CShader("shaders/unlit.vs.glsl", "shaders/unlit.ps.glsl");
+			m_Shaders["unlit"] = shader;
 
-	CShader* shader = new CShader("shaders/unlit.vs.glsl", "shaders/unlit.ps.glsl");
-	m_Shaders["unlit"] = shader;
+			shader = new CShader_GBuffer("shaders/gbuffer.vs.glsl", "shaders/gbuffer.ps.glsl");
+			m_Shaders["gbuffer"] = shader;
 
-	shader = new CShader_GBuffer("shaders/gbuffer.vs.glsl", "shaders/gbuffer.ps.glsl");
-	m_Shaders["gbuffer"] = shader;
+			shader = new CShader_Deferred("shaders/deferred.vs.glsl", "shaders/deferred.ps.glsl");
+			m_Shaders["deferred"] = shader;
 
-	shader = new CShader_Deferred("shaders/deferred.vs.glsl", "shaders/deferred.ps.glsl");
-	m_Shaders["deferred"] = shader;
+			shader = new CShader_SSAO("shaders/ssao.vs.glsl", "shaders/ssao.ps.glsl");
+			m_Shaders["ssao"] = shader;
 
-	shader = new CShader_SSAO("shaders/ssao.vs.glsl", "shaders/ssao.ps.glsl");
-	m_Shaders["ssao"] = shader;
+			shader = new CShader_SSAO("shaders/ssao_blur.vs.glsl", "shaders/ssao_blur.ps.glsl");
+			m_Shaders["ssao_blur"] = shader;
 
-	shader = new CShader_SSAO("shaders/ssao_blur.vs.glsl", "shaders/ssao_blur.ps.glsl");
-	m_Shaders["ssao_blur"] = shader;
+			m_PPChain.AddShader(m_Shaders["deferred"]);
+			m_PPChain.AddShader(m_Shaders["ssao"]);
+		}
+		else if (GetGame()->GetGLSLVersion() == GLSL_VERSION_130)
+		{
+			CShader* shader = new CShader("shaders/1_30/unlit.vs.glsl", "shaders/1_30/unlit.ps.glsl");
+			m_Shaders["unlit"] = shader;
 
-	m_PPChain.AddShader(m_Shaders["deferred"]);
-	m_PPChain.AddShader(m_Shaders["ssao"]);
+			shader = new CShader_GBuffer("shaders/1_30/gbuffer.vs.glsl", "shaders/1_30/gbuffer.ps.glsl");
+			m_Shaders["gbuffer"] = shader;
+
+			shader = new CShader_Deferred("shaders/1_30/deferred.vs.glsl", "shaders/1_30/deferred.ps.glsl");
+			m_Shaders["deferred"] = shader;
+
+			shader = new CShader_SSAO("shaders/1_30/ssao.vs.glsl", "shaders/1_30/ssao.ps.glsl");
+			m_Shaders["ssao"] = shader;
+
+			shader = new CShader_SSAO("shaders/1_30/ssao_blur.vs.glsl", "shaders/1_30/ssao_blur.ps.glsl");
+			m_Shaders["ssao_blur"] = shader;
+
+			m_PPChain.AddShader(m_Shaders["deferred"]);
+			m_PPChain.AddShader(m_Shaders["ssao"]);
+
+		}
+
+	}
+	else
+	{	
+		std::ostringstream errorBuffer;
+		errorBuffer << "Hardware requirements not met:\nMinimum GLSL Version: ";
+		errorBuffer << GetGame()->GetMinGLSLVersion();
+		errorBuffer << "\nDetected GLSL Version: ";
+		errorBuffer << GetGame()->GetGLSLVersion();	
+
+		log(LOG_TYPE_ERROR, errorBuffer.str());
+	}
 }
 
 CShader* IRenderSystem::GetShader(std::string name)
@@ -152,13 +191,16 @@ CShader* IRenderSystem::GetShader(std::string name)
 		return m_Shaders[name];
 	}
 
+	log(LOG_TYPE_WARNING, "Requested shader does not exist: " + name);
 	return 0;
 }
 
 void IRenderSystem::SetShader(CShader* shader)
 {
 	m_CurShader = shader;
-	shader->Activate();
+
+	if (shader != 0)
+		shader->Activate();
 }
 
 CShader* IRenderSystem::GetCurShader()

@@ -120,6 +120,13 @@ void CShader_Deferred::Render()
 
 	// Enable positions
 	glEnableVertexAttribArray(0);
+	
+	if (GetGame()->GetGLSLVersion() == GLSL_VERSION_130)
+	{
+		glBindAttribLocation(GetID(), 0, "vertexPos_MS");
+		glBindAttribLocation(GetID(), 1, "vertexTexCoords");
+	}
+
 	glBindBuffer(GL_ARRAY_BUFFER, GetGame()->GetRenderSystem()->GetScreenQuad());
 	glVertexAttribPointer(
 		0,
